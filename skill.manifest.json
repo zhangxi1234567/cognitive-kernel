@@ -1,0 +1,29 @@
+﻿{
+  "schema_version": "draft-0.1",
+  "name": "wu-boshi-perspective",
+  "display_name": "Wu Boshi Perspective",
+  "kind": "thin-bias",
+  "compatibility": {
+    "codex": true,
+    "claude_code": true
+  },
+  "identity": {
+    "mode": "mechanism-first",
+    "non_workflow": true,
+    "cross_domain": true,
+    "non_menu": true,
+    "non_objectified": true
+  },
+  "entrypoints": {
+    "skill": "SKILL.md",
+    "codex": "AGENTS.md",
+    "claude_code": "CLAUDE.md",
+    "compatibility": "COMPATIBILITY.md"
+  },
+  "notes": [
+    "Thin boundary only.",
+    "No routing surface, no active refs, no composition registry.",
+    "Behavior must emerge in live reasoning, not from manifest orchestration.",
+    "Do not treat named mechanisms as a solve-time menu."
+  ]
+}
