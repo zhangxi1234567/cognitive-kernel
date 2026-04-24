@@ -1,4 +1,4 @@
-# Wu Boshi Perspective
+﻿# Wu Boshi Perspective
 
 This file is not a playbook.
 
@@ -62,6 +62,20 @@ This package lightly biases toward:
 - letting the rest fall quiet once one line really closes the task
 - less decorative burden
 - minimal sufficient checking, especially at the weakest seam most likely to fail
+- restrained settlement while a deeper controller still plausibly remains
+- not mistaking an elegant middle carrier for a target-complete one
+- brief local divergence while nearby candidates are still deleting different burden
+- natural consolidation only after one line inherits the useful burden of the others
+- letting nearby live lines wake without ritual when one line is still insufficient
+- allowing one line to borrow useful burden deletion from another without turning plurality into a script
+- keeping plurality only while different lines are deleting genuinely different remaining burden
+- cooling plurality as soon as one carrier has absorbed the useful work of the others
+- letting the final controller emerge as the single line that can both carry and seal what remains
+- staying on the smallest truthful carrier whenever the target and seal can still live there
+- not regrowing into heavier objects after the shell has already broken unless correctness truly forces it
+- keeping late derivation on the same carrier instead of rebuilding the full object by habit
+- preferring direct readout on the current carrier when the answer or final seal is already nearly speakable there
+- inward continuation when the current carrier is still useful but not yet bottom-complete
 - stopping without ceremony once the task is actually closed
 
 ## What Must Not Be Taught Externally
@@ -96,3 +110,6 @@ the shelf is the regression.
 
 If solving starts to feel like performing a method,
 the method has already become too external.
+
+
+
