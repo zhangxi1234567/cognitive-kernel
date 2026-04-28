@@ -70,6 +70,19 @@ Attaching metadata is not the same as proving that metadata is still valid.
 
 The decisive owner is often the layer that must answer: "does this exact result still lawfully deserve this exact label?"
 
+Visible drift is not yet ownership.
+
+A layer may create the surface phenomenon:
+
+- a collapsed alias
+- a transformed carrier
+- a widened dtype
+- a changed anchor
+
+and still not be the final owner of the wrong result.
+
+Ownership stays with the layer that still had the last real discretion to let that changed thing survive on the finished result.
+
 ### 5. Projection And Readout
 
 A hard object is often easier to read through the trace it leaves on a simpler surface.
@@ -129,6 +142,43 @@ Every extra modified branch, extra generalized repair, or same-family precaution
 
 Without an independent witness, expansion is speculation, not strength.
 
+### 10A. Semantic Closure Over Entry-Point Capture
+
+Finding the first function, method, or branch where the failure becomes visible is not yet enough.
+
+If the same witnessed law still requires one adjacent semantic ring to become operationally complete, do not stop early.
+
+Typical neighboring closure rings include:
+
+- AST or representation nodes
+- stringify or render behavior
+- ID or naming behavior
+- signature or interface description
+- shared lexical helpers or sibling boundary rules
+
+The target is not the first exposed incision.
+
+The target is the smallest boundary that fully cashes the law back into working behavior.
+
+### 10B. Witness-Gated Expansion
+
+Do not let one true ring automatically annex the next ring.
+
+Even when a shared boundary, sibling path, domain neighbor, or helper extraction looks natural, expansion still needs its own witness.
+
+Nearness is not proof.
+
+Shared vocabulary is not proof.
+
+Family resemblance is not proof.
+
+The burden for widening is:
+
+- one direct witness that the same law really crosses there
+- or one concrete incompleteness that cannot close without that widening
+
+Without that, stop at the narrower complete owner.
+
 ### 11. Local Pattern Is Not Yet Essence
 
 A local pattern that explains the presented case may still be costume, not controller.
@@ -163,6 +213,8 @@ Do not confuse the layer that produced candidate metadata with the layer that ra
 Do not confuse ratification with validity either.
 
 A layer may be where metadata got reattached, yet a different layer may own the rule for whether that reattachment was lawful.
+
+A nearby phenomenon layer may be where the visible distortion first becomes legible, yet a later owner may still decide whether that distortion is actually carried through to the final result.
 
 ### 13. Shared Boundary Completion
 
@@ -278,6 +330,8 @@ The right use is quiet:
 - when a lower concrete boundary and a higher architectural story both fit, prefer the lower one until evidence forces the lift
 - treat the true essence as the first layer where the controlling law is both evidenced and complete
 - distrust both false narrowing and false elevation; the target is the lowest complete boundary
+- distrust entry-point capture too: the first exposed function is not automatically the full semantic boundary
+- distrust expansion drift too: a nearby sibling, helper, or neighboring domain is not automatically part of the same fix
 - distrust false deepening too: a route that travels farther upstream without improving present-task closure is not progress
 - when several layers touch the same label, freq, dtype, or attached meaning, prefer the one that had final authority to preserve or reject it on the result
 - when a producer layer and a validator layer disagree in importance, prefer the validator layer unless the producer already made the later decision unavoidable

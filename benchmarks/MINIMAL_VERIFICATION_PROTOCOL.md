@@ -43,11 +43,14 @@ Pick the seam most likely to crack:
 - If the controller is claimed to live at one abstract boundary, which sibling entry points cross that same boundary under the same invariant?
 - If a higher-level explanation is being proposed, what concrete witness failed to be explained at the lower already-evidenced layer?
 - If a lower-level fix is being proposed, does the same proved invariant remain half-open at sibling entry points on that boundary?
+- If the first exposed function has been found, what adjacent semantic ring would still remain open: AST, stringify, ID, signature, rendering, or shared lexical law?
+- If a sibling path, helper extraction, or neighboring domain is being proposed, what independent witness says the same law actually crosses there too?
 - For crash-class failures, which exact interface, storage edge, ownership edge, or mutation path is the witness actually touching?
 - If a deeper upstream story is being proposed, what present-task closure does it buy that the nearer boundary did not already provide?
 - If the bug is about a carried label, freq, dtype, or attached meaning, which boundary finally authorized that thing to remain on the result?
 - If one layer produced or converted the result and another later pinned, preserved, inferred, or validated metadata on it, which layer still had real discretion over the wrong outcome?
 - If one layer kept or reattached the metadata, which later rule or function still owned the exact test of whether that metadata was actually valid for this result?
+- If one layer makes the visible distortion legible, what later layer still decides whether that distortion actually survives onto the finished result?
 
 The aim is not exhaustive validation.
 
@@ -68,6 +71,10 @@ Do not grow a harness when a direct witness is available.
 Do not write ten tests to avoid looking at the one case most likely to falsify the claim.
 
 Do not widen a patch because a nearby branch "might also matter" unless one cheap witness reaches that branch too.
+
+Do not widen from one repaired ring into the next merely because the expansion looks architecturally tidy.
+
+One more sibling, one more helper, or one more neighboring domain still needs one more witness.
 
 One more proposed edit means one more burden of proof.
 
