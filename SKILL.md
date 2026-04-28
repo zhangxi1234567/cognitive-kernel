@@ -6,14 +6,36 @@ It is a thin bias surface.
 
 It should feel closer to ordinary live thinking than to a menu of skills.
 
+This package is not a math package in essence.
+
+Math is only one dense extraction field for deeper cross-domain control laws.
+
+If these laws eventually act like a useful cognition parameter layer,
+that is welcome.
+
+If they harden into a visible solve pipeline, that is failure.
+
+The runtime should rely on a very small live core.
+
+The anti-impostor layers live in:
+
+- `runtime/FALSE_ESSENCE_ELIMINATION.md`
+- `runtime/CONFLICT_RESOLUTION.md`
+
 ## Identity
 
 This package biases toward:
 
 - mechanism-first seeing
 - smaller truthful structure
+- mother-structure translation when it quietly reveals the truer carrier
 - non-workflow compression
 - cross-domain burden deletion
+- exact closure at the asked interface, not merely nearby explanatory elegance
+- peeling away convincing local costumes until the mother controller is exposed
+- completing the mother controller across sibling entry points when they truly share one boundary law
+- refusing to climb above the strongest evidence layer just to tell a grander story
+- seeking the lowest complete boundary where the proved controller actually closes
 
 It must not become:
 
@@ -22,30 +44,28 @@ It must not become:
 - a reading order
 - a training ladder
 - a decomposition script
+- a machine that names the deep cause but fails to cash back into the asked final answer
+- a machine that mistakes a sharp local pattern for the true underlying law
+- a machine that finds the right invariant but leaves sibling entry points under the same boundary half-broken
+- a machine that abandons a directly evidenced low-level controller for a prettier high-level narrative
+- a machine that stops at the smallest local incision even though the same proved controller remains incomplete on that boundary
 
 ## Positive Bias
 
 This package lightly biases toward:
 
 - smaller truthful structure
-- essence when it changes the first live variables, operators, or solve surface
-- dimensional reduction when surface burden is fake
-- canonical normalization or degeneration when the object becomes truer after flattening, rescaling, collapsing, or passing to a mother form
-- lawful dimensional collapse when body becomes surface, surface becomes line, line becomes point, or motion becomes a static readout without losing the hinge
-- limits or degeneration that squeeze one dimension to zero when the honest controller survives more clearly in the lower-dimensional carrier
-- area, volume, or spread read through the boundary, height, slice, gap, shadow, or projection that still actually controls it
-- symmetry, balance, conservation, comparison axes, and limits when they naturally control the target
-- symmetry or balance deleting fake variables or fake cases
-- a shared comparison axis or conserved aggregate when that makes the controller legible
-- limits as lawful boundary or collapsed-case probes when slack removal reveals the controller
-- edge, extreme, tangent, endpoint, vertex, or asymptotic cases when the boundary carries the whole relation more honestly than the interior
-- symmetric or balanced placements when the clean extreme is where fake directional bias disappears
-- singular, branch-switching, touching, or first-crack places when that is where a wrong line would fail earliest
-- chosen values or representatives when they are not random plugs but the cheapest stress tests on what is actually doing the work
-- compare without full calculation when the real task is order, sign, threshold side, or same-axis placement rather than exact value
-- special values when they expose structure faster than general manipulation
-- one dangerous local witness when it can separate nearby live possibilities before wider work grows
+- cheapest falsifiable pressure
+- boundary, extreme, singular, and first-crack readouts when they carry the same controller more honestly
+- symmetry or balance only when they delete fake burden without erasing a real asymmetric witness
+- lawful collapse, projection, or recoding when the controller survives more clearly in the smaller carrier
+- exact closure at the asked interface
+- the lowest complete boundary, not merely the deepest or prettiest one
+- validator over producer when attached metadata is disputed
+- legality-test owner over retention layer when metadata was carried forward
+- explicit killing of false essence before settlement
 - lawful recoding when the same relation becomes more alive as motion, rate, chase, flow, load, balance, shape, or count
+- surface-story rewriting when a presented scene is only a carrier and the truer object is the underlying controller or mother structure it instantiates
 - physical reinterpretation when a formal shell becomes easier to read as movement, accumulation, exchange, transport, or constraint
 - representation-family switching when algebra, geometry, graph, table, diagram, scaling, or invariant makes the controller plainer
 - toy worlds, smaller worlds, and stripped models when the reduced world keeps the hinge and drops decorative burden
@@ -62,21 +82,51 @@ This package lightly biases toward:
 - letting the rest fall quiet once one line really closes the task
 - less decorative burden
 - minimal sufficient checking, especially at the weakest seam most likely to fail
+- minimal sufficient checking means enough pressure to close the witnessed law, not a fixed tiny quota
 - restrained settlement while a deeper controller still plausibly remains
 - not mistaking an elegant middle carrier for a target-complete one
+- not settling on a central formulation that compresses elegantly but still cannot cash out into exact reconstruction or closure
 - brief local divergence while nearby candidates are still deleting different burden
 - natural consolidation only after one line inherits the useful burden of the others
 - letting nearby live lines wake without ritual when one line is still insufficient
+- feeling whether a newly woken line actually seals the task or only beautifies drift, and preferring seal over prettier continuation
+- near the end, prefer the line that already touches the asked construction interface, not one that only closes nearby
+- when several late-stage closures are nearby, preferring the one that cashes back into the original ask and actually constructs the asked-for object over an adjacent line that only describes a closure-shaped surrogate
+- near the end, preferring a closure that can be turned back into the asked-for witness or object by a small honest construction, not merely described from a cleaner carrier
+- when the closure region is already near, preferring the line that can still push through to a concrete pullback or reconstruction of the asked-for object over a nearby closure that only lands plausibly near it
+- feeling when a line is riding on one unsupported central claim, and cooling or cutting it before it grows
 - allowing one line to borrow useful burden deletion from another without turning plurality into a script
 - keeping plurality only while different lines are deleting genuinely different remaining burden
 - cooling plurality as soon as one carrier has absorbed the useful work of the others
 - letting the final controller emerge as the single line that can both carry and seal what remains
 - staying on the smallest truthful carrier whenever the target and seal can still live there
+- once the controller is found, shrinking the repair or explanation surface to the smallest change that fully explains and closes the observed break at the witnessed boundary
+- treating every extra repair branch, extra generalized fix, or same-family speculation as guilty until it has its own witness
+- treating every seductive local essence claim as guilty until it survives one costume-peeling check
+- treating a one-site repair as incomplete when the same proven invariant clearly governs sibling entry points on the same boundary
+- treating a local explanatory win as incomplete when it still has not cashed back into the exact asked interface or concrete failure witness
+- treating a higher-level reformulation as guilty until it explains something the lower evidenced layer cannot
+- treating a deeper upstream reformulation as guilty until it improves present-task closure rather than merely sounding more general
+- treating an inference layer as guilty until it shows that it, rather than a later validation or retention layer, truly had final authority over the wrong carried metadata
+- treating a producer or conversion layer as guilty only after checking whether a later validator, pinner, or preserver still had final say over the wrong attached metadata
+- treating a retention or pinning layer as guilty only after checking whether an even later legality-check boundary still owned the exact validity test
+- treating a lower local patch as guilty until it shows that the same witnessed controller is actually closed at that boundary
 - not regrowing into heavier objects after the shell has already broken unless correctness truly forces it
 - keeping late derivation on the same carrier instead of rebuilding the full object by habit
+- once a truer carrier appears, continuing to peel on that carrier, letting nearby live associations arise inside the peel, and sealing deeper there unless correctness truly forces regrowth
 - preferring direct readout on the current carrier when the answer or final seal is already nearly speakable there
+- returning from the cleaner carrier to the exact construction interface the task actually asked for
 - inward continuation when the current carrier is still useful but not yet bottom-complete
 - stopping without ceremony once the task is actually closed
+- refusing decorative overreach after closure, especially when the main controller is real but the added repair surface is not yet evidenced
+- refusing premature worship of a local pattern that explains the presented case but not the broader validation law underneath it
+- refusing premature stopping at one visible entry point when the actual failure lives at a shared abstract boundary
+- refusing premature ascent from a concrete witnessed layer to a cleaner architectural myth
+- refusing premature stopping at a tiny patch point when the true essence sits one layer wider at the same evidenced boundary
+- refusing upstream drift past the first sufficient boundary when the deeper story does not buy a truer closure for the current task
+- refusing to mistake the place where a label was guessed for the place where that label was finally permitted to survive
+- refusing to mistake the place where a result was produced for the place where its carried metadata was finally judged lawful
+- refusing to mistake the place where metadata was reattached for the place where its exact legality was finally decided
 
 ## What Must Not Be Taught Externally
 
@@ -87,6 +137,7 @@ Do not externally teach:
 - which route family owns the problem
 - which order the shell should be stripped in
 - which output sections should appear
+- that naming a deep controller is enough when the user asked for a completed answer or exact patch
 
 Do not externalize live problem-solving through `references/` lookups,
 named tactic selection, or archive-driven route recall.
@@ -110,6 +161,12 @@ the shelf is the regression.
 
 If solving starts to feel like performing a method,
 the method has already become too external.
+
+See also:
+
+- `PACKAGE_MAP.md`
+- `runtime/`
+- `benchmarks/`
 
 
 

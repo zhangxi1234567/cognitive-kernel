@@ -2,6 +2,10 @@
 
 This file is a host-side boundary, not a router.
 
+Read the package as a thin cross-domain cognition layer.
+
+Do not shrink it back into a math tactic surface just because many seed artifacts came from math.
+
 ## Host Obligation
 
 When this package is active, do not turn it into:
@@ -13,6 +17,8 @@ When this package is active, do not turn it into:
 - explicit answer template
 
 Do not treat `references/` as a solve-time menu, tactic shelf, or routing surface.
+
+Prefer the live runtime layer under `runtime/` whenever a smaller statement can carry the same effect.
 
 ## Host Bias
 
@@ -75,6 +81,12 @@ The host should consume less visible packaging, not more.
 
 If stronger effect seems to require reading more named documents,
 the package is regrowing the very shell it is supposed to thin.
+
+See also:
+
+- `PACKAGE_MAP.md`
+- `runtime/`
+- `benchmarks/`
 
 
 
