@@ -22,6 +22,8 @@
   },
   "notes": [
     "Thin boundary only.",
+    "This is a cross-domain cognition layer, not a math tactic package.",
+    "It may act like a cognition-parameter supplement, but must not harden into a workflow or exam-machine.",
     "No routing surface, no active refs, no composition registry.",
     "Behavior must emerge in live reasoning, not from manifest orchestration.",
     "Do not treat named mechanisms as a solve-time menu."

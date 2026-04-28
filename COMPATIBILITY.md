@@ -6,6 +6,8 @@ Its purpose is not to teach the host how to solve.
 
 Its purpose is only to keep the host from distorting the package into visible control.
 
+The package should be read as a cross-domain cognition layer, not as a math curriculum.
+
 ## What This Layer Is
 
 This layer is:
@@ -71,6 +73,33 @@ The project already has:
 The project does not yet have:
 
 - host-native silent runtime modulation
+- perfect host parity across every Codex / Claude Code entry surface
+
+## Current Compatibility Status
+
+Current status is:
+
+- compatible with Codex entrypoints
+- compatible with Claude Code entrypoints
+- not yet perfect in thinness or host-native absorption
+
+What already works:
+
+- root entrypoints exist for both hosts
+- the manifest identity is cross-domain and non-workflow
+- runtime, compat, benchmark, and archive layers are now explicitly separated
+
+What still prevents calling it perfect:
+
+- `agents/openai.yaml` is still thicker than the ideal thin runtime surface
+- legacy archive gravity still exists under `references/`
+- some compatibility doctrine still survives as copied bridge material rather than fully native host behavior
+
+So the honest claim is:
+
+- structurally compatible now
+- directionally aligned now
+- not yet perfectly nativeized
 
 ## Final Rule
 
@@ -79,3 +108,5 @@ This layer is a thin bridge.
 It should become smaller as hosts become stronger.
 
 Its reference archive should become less live, not more operational.
+
+See `PACKAGE_MAP.md` for the active split between runtime, benchmarks, and archive.

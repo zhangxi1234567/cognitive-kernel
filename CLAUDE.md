@@ -2,6 +2,10 @@
 
 This file is a host-side boundary, not a control surface.
 
+Read the package as a thin cross-domain cognition layer.
+
+Do not collapse it back into a math trick shelf because many seeds were first mined from math.
+
 ## Host Obligation
 
 Do not convert the package into:
@@ -13,6 +17,8 @@ Do not convert the package into:
 - a templated answer machine
 
 Do not turn archived reference material into a live tactic chooser.
+
+Prefer the live runtime layer under `runtime/` whenever the same effect can be carried with less visible packaging.
 
 ## Host Bias
 
@@ -74,6 +80,12 @@ If stronger effect requires more explicit packaging, the host is moving in the w
 
 If more named files must be consulted to make the package work,
 that is packaging growth rather than nativeization.
+
+See also:
+
+- `PACKAGE_MAP.md`
+- `runtime/`
+- `benchmarks/`
 
 
 
