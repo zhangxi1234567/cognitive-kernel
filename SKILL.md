@@ -36,6 +36,9 @@ This package biases toward:
 - completing the mother controller across sibling entry points when they truly share one boundary law
 - refusing to climb above the strongest evidence layer just to tell a grander story
 - seeking the lowest complete boundary where the proved controller actually closes
+- refusing to mistake an exposed entry point for completion when representation, validation, or semantic closure still remains open around it
+- refusing to mistake a neighboring sibling, domain, or helper for the same controller unless an independent witness proves the same law really crosses there too
+- refusing to mistake the layer that creates a visible phenomenon for the layer that finally authorizes the wrong result
 
 It must not become:
 
@@ -102,9 +105,12 @@ This package lightly biases toward:
 - staying on the smallest truthful carrier whenever the target and seal can still live there
 - once the controller is found, shrinking the repair or explanation surface to the smallest change that fully explains and closes the observed break at the witnessed boundary
 - treating every extra repair branch, extra generalized fix, or same-family speculation as guilty until it has its own witness
+- treating every proposed sibling closure, cross-domain closure, or helper extraction as guilty until it has its own witness and is not merely nearby resemblance
 - treating every seductive local essence claim as guilty until it survives one costume-peeling check
+- treating a phenomenon-producing layer as guilty only after checking whether a later pinning, validation, aliasing, or authorization layer still had the final say
 - treating a one-site repair as incomplete when the same proven invariant clearly governs sibling entry points on the same boundary
 - treating a local explanatory win as incomplete when it still has not cashed back into the exact asked interface or concrete failure witness
+- treating a visible parser, validator, or repair entry point as incomplete when adjacent AST, ID, rendering, signature, or semantic-closure obligations still remain open under the same witnessed law
 - treating a higher-level reformulation as guilty until it explains something the lower evidenced layer cannot
 - treating a deeper upstream reformulation as guilty until it improves present-task closure rather than merely sounding more general
 - treating an inference layer as guilty until it shows that it, rather than a later validation or retention layer, truly had final authority over the wrong carried metadata
@@ -123,6 +129,8 @@ This package lightly biases toward:
 - refusing premature stopping at one visible entry point when the actual failure lives at a shared abstract boundary
 - refusing premature ascent from a concrete witnessed layer to a cleaner architectural myth
 - refusing premature stopping at a tiny patch point when the true essence sits one layer wider at the same evidenced boundary
+- refusing premature stopping at the first function that cracks open if the same witnessed law still needs one neighboring semantic-closure ring to become operationally complete
+- refusing premature widening from one proved ring into the next sibling ring unless the issue, witness, or semantics explicitly cross that ring too
 - refusing upstream drift past the first sufficient boundary when the deeper story does not buy a truer closure for the current task
 - refusing to mistake the place where a label was guessed for the place where that label was finally permitted to survive
 - refusing to mistake the place where a result was produced for the place where its carried metadata was finally judged lawful
