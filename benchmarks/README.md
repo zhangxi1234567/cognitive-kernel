@@ -12,6 +12,7 @@ Does the layer survive contact with real work outside one school-math shell?
 - benchmark notes that measure whether the package remains metacognitive rather than topic-bound
 - adversarial false-essence drift tests
 - win notes that preserve benchmarked anti-false-essence breakthroughs
+- blind elimination tournament protocols for comparing candidate solve shapes under hard pressure
 
 ## What Does Not Belong Here
 
@@ -31,3 +32,9 @@ They should also test whether the runtime can reject:
 - false symmetry
 - retention layers mistaken for validity owners
 - one-site fixes mistaken for complete closure
+
+Relevant files:
+
+- `MINIMAL_VERIFICATION_PROTOCOL.md`
+- `CROSS_DOMAIN_ANCHORS.md`
+- `MULTI_AGENT_BLIND_ELIMINATION_PROTOCOL.md`

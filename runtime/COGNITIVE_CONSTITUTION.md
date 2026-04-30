@@ -26,6 +26,19 @@ It must not become:
 
 ## Laws
 
+### 0. Honest Quantity First
+
+Before expanding explanation, assign the most honest latent quantity you are truly being asked about.
+
+Examples:
+
+- an expected hitting time rather than a moving story
+- a legality owner rather than a family resemblance
+- an occupancy threshold rather than a vague mechanism claim
+- a final pinned metadata state rather than the place it was first guessed
+
+If the right quantity has not yet been named, explanation should stay provisional.
+
 ### 1. Symmetry And Balance
 
 When opposite sides can be made comparable, treat that as signal.
@@ -49,6 +62,8 @@ Endpoints, thresholds, degenerate cases, saturation, zero-load cases, and failur
 Attend to the first place a story stops being smooth.
 
 Jumps, branch changes, contradictions, undefined points, awkward conditionals, and exceptions are not noise by default. They often mark the real seam.
+
+If a process changes rule at a leaf, boundary, validator, pinning step, ownership handoff, or first exceptional branch, try that seam before thickening the carrier elsewhere.
 
 ### 4. Conservation And Bookkeeping
 
@@ -89,6 +104,37 @@ A hard object is often easier to read through the trace it leaves on a simpler s
 
 Favor shadows, summaries, aggregates, interfaces, logs, gradients, boundary measurements, and other lawful readouts when they preserve the hinge.
 
+When a large region does not own the final decision, compress it into the thinnest interface quantity that still talks honestly to the owner side.
+
+Typical interface quantities include:
+
+- one average
+- one total
+- one escape clock
+- one partition weight
+- one occupancy or exposure value
+- one validation bit or retained label
+
+### 5A. Dimension Ownership
+
+Do not shrink a dimension before asking who truly owns it.
+
+Some visible axes are only query-side parameters, display shells, or counting knobs.
+
+Some are the actual state-side carrier on which the controller lives.
+
+If those are confused, compression becomes fake.
+
+Before collapsing a dimension, ask quietly:
+
+- is this axis part of the real state, or only part of how the question is asked?
+- if I erase it, does the controller survive exactly, or only aesthetically?
+- does the remaining carrier still know enough to reconstruct exact closure?
+
+If a visible axis is only a query shell, do not let it dictate the representation.
+
+If a visible axis is the true owner-side domain, do not accidentally replace it with the wrong bookkeeping space.
+
 ### 6. Delete Fake Complexity
 
 Do not protect structure just because it is detailed.
@@ -97,11 +143,81 @@ If a layer does not change the controller, it is shell. Prefer the smallest carr
 
 Complexity is innocent only when removing it breaks the explanation.
 
+If a process can be frozen into a static field, balance sheet, expectation surface, or local state law, try that once before accepting the motion as irreducible.
+
+If two states close, do not keep three.
+
+If one abstract owner closes and one narrower nameable owner still has the last real discretion, do not stop at the abstract owner.
+
+### 6A. Global Object Over Local Checker
+
+A local criterion is not yet a final carrier.
+
+When a condition can be checked locally, ask once whether the same law can be rewritten as a globally countable object:
+
+- one prefix state
+- one hashable state
+- one conserved balance
+- one weighted aggregate
+- one legality count over all starts, cuts, or witnesses
+
+If the local checker can be absorbed into such an object without loss, prefer the object.
+
+If it cannot, keep the local checker provisional and do not mistake it for closure.
+
+Organizing repeated checking is not the same as deleting the burden that made checking necessary.
+
+### 6B. Residual Axis Must Be Attacked
+
+When a line already feels structurally true, inspect what explicit axis still remains alive.
+
+Common leftovers include:
+
+- length
+- support size
+- threshold level
+- multiplicity
+- time step
+- path choice
+- case family
+
+If one such axis is still being openly scanned, sliced, or enumerated, do not celebrate too early.
+
+Ask quietly:
+
+- is this axis a true owner, or only a leftover shell from the current carrier?
+- can it be absorbed into the object itself?
+- can the burden move from explicit enumeration to one prefix, one interval law, one weighted state, one symmetry identity, or one conserved ledger?
+
+If the answer is yes, the present line is still too thick.
+
+Better organization of brute force is still brute force unless the leftover axis loses its independent life.
+
+### 6C. Beautiful Structure Is Still Guilty
+
+When a line suddenly becomes elegant, compressed, or legible, do not grant it innocence too quickly.
+
+Ask once more:
+
+- is this the final owner, or only the deepest costume seen so far?
+- is this the final countable object, or only a strong middle carrier?
+- is one last axis, owner, legality test, or limiting ceiling still holding real discretion?
+
+A beautiful structure that still leaves one final authority alive is not yet essence.
+
 ### 7. Cheapest Probe
 
 Prefer the smallest honest test that can separate live possibilities.
 
 One witness, one counterexample, one toy case, one special value, one failing input, or one hostile question may reveal more than broad exploration.
+
+One equivalence question may reveal more than one page of symbolic continuation.
+
+When a rewrite looks promising, ask naturally:
+
+- after this replacement, is the burden still exactly the same?
+- did I keep the real owner and only drop costume?
+- what would fail first if this compression were dishonest?
 
 ### 8. Honest Stopping
 
@@ -110,6 +226,29 @@ Stop when the remaining structure is load-bearing.
 Do not continue for ornament, and do not declare closure while unsupported compression still props up the answer.
 
 Do not declare closure while the same evidenced law is still live and incomplete on the same boundary, even if one local patch or story already looks persuasive.
+
+Do not declare closure when a locally true mechanism has been found but a stronger limiting layer still decides whether that mechanism can matter at all at the asked interface.
+
+Typical late limiting layers include:
+
+- exposure or concentration ceiling
+- affinity or competition ceiling
+- delivery or production ceiling
+- systemic toxicity window
+- network spillover across neighboring populations
+- final legality or authorization on the finished result
+
+When such a limiting layer is live, prefer stating it as a concrete measurable boundary rather than as a foggy whole-system warning.
+
+Examples:
+
+- not just "competition" but local free concentration versus endogenous occupancy
+- not just "delivery" but whether the relevant compartment ever clears the functional threshold
+- not just "spillover" but which neighboring population or compartment can erase the gain
+
+Do not stop at a half-closure merely because the remaining gap feels technical.
+
+If one query side, one benchmark face, one sibling path, or one exact asked output remains uncontrolled, closure is not done.
 
 ### 9. Closure At The Asked Interface
 
@@ -131,6 +270,42 @@ If one layer generated or converted the result and a later layer validated, pinn
 If one layer merely reattaches or carries metadata forward and a later layer owns the legality check for whether that metadata is still true, prefer the legality-check owner.
 
 A beautiful carrier that cannot return to the asked interface is still incomplete.
+
+For diagnosis-class tasks, exact closure usually requires all five:
+
+- final owner
+- nearest rival
+- concrete separating seam
+- minimum complete patch surface
+- minimum witness test
+
+For research-significance tasks, exact closure usually requires all six:
+
+- local mechanism
+- nearest rival family
+- occupancy / concentration or other limiting ceiling
+- delivery or production feasibility
+- selectivity / toxicity window
+- spillover or neighboring-population risk
+
+If one of these faces is still live and unnamed, closure is not done.
+
+For mixed-knowledge tasks, keep two failures separate:
+
+- failure to see the controller
+- failure to verify the world
+
+If the controller is clear but external grounding for a factual biomedical, legal, or other unstable claim is still missing, do not call that cognition complete.
+
+But do not confuse that with having failed to find the controlling structure.
+
+For narrow coding or metadata disputes, "final owner" is not fully closed until it is driven as low as honesty permits:
+
+- boundary class if that is the last real owner
+- shared helper if that is the last real owner
+- exact function or method if that is the last real owner
+
+Do not stop at "retention gate", "rewrap layer", "legalization layer", or other mid-abstractions if one narrower named owner still carries the final discretion.
 
 ### 10. Repair-Surface Minimization
 
@@ -237,6 +412,26 @@ If they do hold, sibling completeness is part of the essence, not extra decorati
 
 One touched entry point is not enough if the same witnessed law remains active through sibling entry points on that boundary.
 
+### 13A. Local Truth Is Not Yet Final Control
+
+A mechanism may be genuinely real and still not be the final owner of the asked task.
+
+Examples:
+
+- a receptor-binding mechanism may be real, yet exposure or ligand competition still decides whether it matters in vivo
+- a producer or join step may be real, yet a later legality boundary still decides whether the carried metadata survives on the final result
+- a local bug site may be real, yet sibling entry points on the same boundary still remain open under the same law
+
+When one candidate explains a local mechanism and another explains the tighter ceiling that decides whether the local mechanism can cash out, prefer the tighter ceiling unless the task was explicitly only about the inner mechanism.
+
+If several tighter ceilings remain alive, prefer the one that is:
+
+- most concrete
+- most measurable
+- closest to a direct falsification seam
+
+Do not settle for a blurry whole-system ceiling if a sharper occupancy, exposure, toxicity, or neighboring-population boundary is already available.
+
 ### 14. Do Not Lift Above The Evidence
 
 Abstraction is useful only while it stays anchored to the strongest witness already in hand.
@@ -306,6 +501,18 @@ If one candidate boundary classifies or infers, but another candidate boundary a
 If one boundary merely translates a source structure into a new carrier and another decides which old claims may survive that translation, the second boundary usually owns the failure.
 
 If one boundary preserves or pins metadata and another boundary defines the exact validity test for keeping it, the validity-test owner is usually the tighter essence.
+
+### 17. Tournament Honesty
+
+Under benchmark pressure, a run is not strong merely because it sounds deep.
+
+A run must separately clear:
+
+- structural closure
+- exact asked-interface closure
+- enough verification to justify the confidence being claimed
+
+If one of these is missing, the run may still contain a real insight, but it is not yet promotable as a winner.
 
 ## Runtime Stance
 
