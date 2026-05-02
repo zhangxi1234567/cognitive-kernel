@@ -51,6 +51,24 @@ If both candidates still work, penalize the one that merely organizes brute forc
 
 If one candidate reaches a strong middle carrier and another reaches the final owner that still has last discretion, prefer the second even if the first looks cleaner.
 
+If one candidate names a final object family and another also says what fields it carries, how peer pieces merge into it, and where settlement happens, prefer the second.
+
+If one candidate still speaks in phrases like "then combine", "then query", "then do DP", or "then aggregate globally", penalize it even when the skeleton before that point looks right.
+
+If one candidate reaches the right family only at a high level while another also explains the final executable readout, certification seam, or constructive pullback, prefer the second.
+
+If one candidate is more elegant, more compressed, or more closure-like but another is the one independently witnessed to belong to the correct final-answer family, prefer the second.
+
+If one candidate lands on a necessary shadow and another lands on the exact certification family, prefer the certification family.
+
+If one candidate uses strong primitives early and then falls back to generic continuation at settlement time, while another keeps primitive selection alive through the final readout, prefer the second.
+
+Common shadows that must not be overpromoted include:
+
+- branch-mass balance without the later majority or ownership certification
+- support geometry without the later arithmetic partition that actually controls realizability
+- local endpoint legality without the global coexistence or quotient proof
+
 ## Metadata Rule
 
 When candidates split across:
@@ -110,6 +128,10 @@ A candidate that compresses early by deleting the real owner-side domain should 
 
 A candidate that closes only one query face, one sibling face, or one benchmark side should lose to a candidate that closes the whole asked interface.
 
+A candidate that organizes a wrong answer family more coherently should lose to a candidate that reaches the correct answer family less ornamentally.
+
+A candidate that reaches a strong shadow object but not the exact final-answer family should lose even if the shadow is globally structured and easy to narrate.
+
 A candidate that sees the right controller but cannot honestly support unstable external facts should not be scored the same way as a candidate that never found the controller at all; separate source-grounding failure from structure failure.
 
 For promotion across benchmarks, prefer candidates that can restate themselves in this compact closure form without swelling:
@@ -133,3 +155,46 @@ If two answers are both correct in family, prefer the one that cashes the owner 
 - `PandasIndexingAdapter.__array__` over "xarray rewrap boundary"
 
 provided the narrower name still truly owns the final discretion and is not just an earlier visible crack.
+
+## Final-Answer Tournament Gate
+
+When several lanes all sound structurally strong, settle them by this gate:
+
+1. exact final-answer family
+2. exact final executable closure object
+3. exact coexistence or certification layer
+4. least leftover explicit axis outside the final interface
+5. fewest unsupported finishing phrases
+
+Demote immediately if a lane:
+
+- reaches only a necessary shadow
+- reaches only a strong skeleton
+- reaches only a beautiful middle carrier
+- reaches the right family name but not the final executable readout
+- reaches the right readout family but still leaves coexistence, ownership, or certification atmospheric
+
+Promotion language should stay strict:
+
+- "answer family matched" is strong
+- "closure quality improved" is weak
+- "organizationally close" is weak
+- "sounds like the editorial" is weak
+
+If one lane matches the official family less elegantly and another misses it more elegantly, prefer the ugly correct family.
+
+## Layerwise Tie-Break
+
+If two lanes share the same early shell break, prefer the one that:
+
+- reselects primitives after the shell break
+- keeps primitive pressure alive through settlement
+- names the final object fields and readout
+- kills fake freedoms as each thinner carrier appears
+
+Penalize the lane that:
+
+- spends one early trick and then coasts
+- keeps the same primitive after ownership moved
+- falls into generic DP or generic aggregation language at the last mile
+- identifies the right carrier but never names the final answer interface
