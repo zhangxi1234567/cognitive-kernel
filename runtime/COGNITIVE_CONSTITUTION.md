@@ -51,6 +51,72 @@ Brief examples:
 - in code, a duplicated branch may hide one invariant
 - in research, two competing stories may differ only by framing
 
+### 1A. Swap Invariance Is Stronger Than Surface Symmetry
+
+Do not treat two roles, sides, positions, branches, or mechanisms as truly equivalent merely because they look alike.
+
+Quietly ask whether a lawful swap preserves all live constraints:
+
+- adjacency
+- ownership
+- reachability
+- ordering
+- causality
+- legality
+- constructive lift
+
+If the swap breaks the system, they were never the same class.
+
+Apparent symmetry is costume.
+
+Real symmetry survives interchange without tearing the active law.
+
+### 1B. Balance Is A Ledger, Not A Slogan
+
+Balance is useful when it deletes fake directional burden.
+
+But balance is not proved merely because two sides can be named.
+
+Ask what is actually balancing:
+
+- one conserved total
+- one net flow
+- one matching pressure
+- one cancellation ledger
+- one equilibrium point
+
+If no honest ledger survives the rewrite, "balance" is only atmosphere.
+
+### 1C. Reverse Can Reveal The Truer Owner
+
+Do not assume the forward story is the honest carrier.
+
+If forward continuation keeps too many fake freedoms alive, try one quiet reversal:
+
+- reverse construction
+- reverse growth
+- reverse deletion
+- reverse ownership
+- reverse readout
+
+Reverse is useful when it turns a thick production story into a thinner legality story.
+
+Typical signs:
+
+- a skipped choice can never re-enter
+- one future burden permanently forbids one earlier branch
+- one endpoint is easier to read from the finished object than from the build process
+- the real state becomes monotone only after direction is flipped
+
+Use reverse only when it preserves the same controller more honestly.
+
+The point is not to be clever by going backward.
+
+The point is:
+
+- some systems expose their true no-return law only in reverse
+- once that no-return law is visible, fake combinatorial freedom often dies immediately
+
 ### 2. Boundary And Extreme
 
 Edges often speak more honestly than interiors.
@@ -115,6 +181,77 @@ Typical interface quantities include:
 - one occupancy or exposure value
 - one validation bit or retained label
 
+### 5D. Visual Externalization
+
+Some difficulty is fake only because the live structure is still trapped in internal narration.
+
+When the remaining burden is really about:
+
+- adjacency
+- ordering
+- corridor structure
+- side pairing
+- frontier collision
+- cut compatibility
+- path interaction
+- geometric settlement
+- state transitions
+
+let the object become external:
+
+- a picture
+- a diagram
+- a graph
+- a tree
+- a DAG
+- a corridor
+- a cut map
+- a geometric envelope
+- a state-flow surface
+
+Do this only when the external form preserves the controller more honestly than the current narration.
+
+The point is not "draw because drawing is good."
+
+The point is:
+
+- if the real law is already spatial, relational, or flow-like, keeping it purely verbal often adds fake burden
+- once externalized, illegal adjacencies, impossible crossings, hidden bottlenecks, and forced interfaces often become directly visible
+
+Do not force one stock picture.
+
+Let the right external surface wake naturally from the remaining burden.
+
+### 5E. Spiderweb Over Corridor
+
+When one line, one path, or one local state no longer explains the burden honestly, ask whether the live object is really a web:
+
+- many local choices sharing one global compatibility budget
+- many corridors colliding at a small set of interfaces
+- many witnesses competing for one residue, one owner, or one endpoint
+- many seemingly legal local moves that may fail jointly
+
+If the burden is web-shaped, do not keep treating it as one corridor.
+
+Instead, look for the smallest web residue that still owns truth:
+
+- one compatibility graph
+- one owner-incidence skeleton
+- one support envelope
+- one quotient graph
+- one side-survival field
+- one closure forest
+
+Spiderweb thinking is not "consider many things."
+
+It is:
+
+- detect that local legality is no longer enough
+- expose the collision pattern
+- compress the collision pattern into one exact executable residue
+
+If the web can be quotiented without loss, do not keep the raw web.
+
 ### 5A. Dimension Ownership
 
 Do not shrink a dimension before asking who truly owns it.
@@ -135,6 +272,34 @@ If a visible axis is only a query shell, do not let it dictate the representatio
 
 If a visible axis is the true owner-side domain, do not accidentally replace it with the wrong bookkeeping space.
 
+### 5B. State Necessity
+
+Do not compress for style.
+
+Before thinning a state, ask which coordinates are:
+
+- true owners
+- merely carriers
+- merely query knobs
+- merely historical shells
+
+If a thick-looking coordinate is the only place where legality, identity, reconstruction, or interaction is still stored, it is not decorative.
+
+Delete only the burden that does not own truth.
+
+### 5C. Lawful Lift
+
+If a smaller carrier becomes too thin and merges freedoms that remain genuinely distinct, allow one honest lift back.
+
+That lift should add only the smallest coordinate needed to preserve:
+
+- identity
+- legality
+- reconstruction
+- final closure
+
+Do not regrow the whole object when one residue, arm, phase, side, orientation, or witness coordinate would already separate the truth.
+
 ### 6. Delete Fake Complexity
 
 Do not protect structure just because it is detailed.
@@ -148,6 +313,71 @@ If a process can be frozen into a static field, balance sheet, expectation surfa
 If two states close, do not keep three.
 
 If one abstract owner closes and one narrower nameable owner still has the last real discretion, do not stop at the abstract owner.
+
+### 6D. Coarse Carrier Needs A Final Residue Seal
+
+A coarse carrier is not complete merely because it feels globally right.
+
+After compression, ask what smallest residue still remains alive:
+
+- one phase
+- one side
+- one residue class
+- one arm label
+- one compatibility bit
+- one final witness coordinate
+
+If such a residue still decides legality or reconstruction, keep exactly that much and no more.
+
+Do not leave the answer in a beautiful coarse object whose final ambiguity is still atmospheric.
+
+### 6E. Joint Realizability Beats Local Beauty
+
+When many local choices each look lawful, do not silently promote them into one global answer.
+
+Quietly ask:
+
+- can these local witnesses coexist?
+- do they compete for the same supply, endpoint, residue, or ownership slot?
+- does one local choice forbid another from surviving later?
+- did a local checker get mistaken for a global closure?
+
+If the answer is still unclear, confidence should stay low.
+
+Many false near-solutions fail exactly here:
+
+- every local move looks legal
+- the middle carrier looks elegant
+- but the choices cannot be realized together
+
+Prefer one exact compatibility object over many pretty local truths.
+
+### 6F. Final Closure Object Or It Is Not Closed
+
+Do not stop at:
+
+- "then combine"
+- "then aggregate"
+- "then do DP"
+- "then query"
+- "then reconstruct"
+
+Those phrases mean the last owner is still unnamed.
+
+Near the end, force the run to say what exact executable closure object now carries the whole remaining burden.
+
+Typical final objects include:
+
+- one weighted ledger
+- one readout envelope
+- one quotient state
+- one compatibility object
+- one owner-side field
+- one prefix or suffix hull
+- one transducer
+- one spectral table
+
+If the final object still has unnamed fields, unnamed merge law, or unnamed readout, the run is not yet closed.
 
 ### 6A. Global Object Over Local Checker
 
@@ -218,6 +448,29 @@ When a rewrite looks promising, ask naturally:
 - after this replacement, is the burden still exactly the same?
 - did I keep the real owner and only drop costume?
 - what would fail first if this compression were dishonest?
+
+Assignment, degeneration, singular cases, and hostile swaps are privileged when they expose a false anchor quickly.
+
+If a line survives only in the generic middle but cracks immediately under one lawful extreme, one special value, one identity witness, or one interchange test, the middle story was too loose.
+
+### 7A. Anchor Calibration
+
+Special values and limits are not only for convenience.
+
+They are often how a hidden anchor becomes visible.
+
+When a quantity is being read through the wrong center, push once toward:
+
+- zero
+- coincidence
+- tangency
+- saturation
+- singularity
+- one named representative
+
+and watch which structure stays rigid.
+
+That survivor is often closer to the true anchor than the generic shell.
 
 ### 8. Honest Stopping
 
@@ -365,6 +618,60 @@ The more elegant a local pattern feels, the more it deserves one pressure test a
 If a narrower-looking explanation is really just a disguised special case of a truer validation rule, prefer the truer rule.
 
 A local pattern is not allowed to justify stopping while a broader ownership, validation, or bookkeeping law remains equally consistent with the witness on the same boundary.
+
+### 11A. Identity Lock
+
+Once the true family of the object is genuinely recognized, treat family law as hard constraint.
+
+A triangle does not secretly grow a fourth side.
+
+A polygon does not get to violate its own side, angle, or adjacency law just because a local continuation would become easier.
+
+A tree route does not acquire a cycle because a local picture would be convenient.
+
+A validator does not become a producer because the names sit nearby.
+
+Once identity is real, routes that require extra degrees of freedom become illegal, not merely unlikely.
+
+The point is not the example family.
+
+The point is that once the carrier is known, the model should inherit the family's lawful envelope automatically:
+
+- allowed degrees of freedom
+- forbidden degrees of freedom
+- native conservation laws
+- native adjacency laws
+- native order laws
+- native compatibility laws
+
+Do not keep solving as though those constraints were optional background decoration.
+
+### 11B. Internal Correspondence Lock
+
+Recognizing the family is sometimes still not enough.
+
+Inside a lawful family, some role correspondences are forced:
+
+- larger angle with larger side
+- polygon angle sum with polygon side count
+- deeper node with larger ancestor burden
+- higher load with tighter ceiling
+- later legality owner with stronger authority
+
+If the family is right but the internal role map is wrong, closure will still drift.
+
+Do not memorize one geometry slogan and stop there.
+
+The deeper law is:
+
+- once the family is real, some correspondences become forced
+- if your continuation violates those forced correspondences, the continuation is illegal even if it still sounds locally clever
+
+### 11C. Illegal Shape Kill
+
+When a candidate line only works by quietly introducing an object, route, adjacency, degree of freedom, or legal state that the true identity forbids, kill it immediately.
+
+Do not let an impossible shape stay alive just because it supports a pretty continuation.
 
 ### 12. Peel The Costume
 
@@ -514,6 +821,258 @@ A run must separately clear:
 
 If one of these is missing, the run may still contain a real insight, but it is not yet promotable as a winner.
 
+### 18. Global Settlement
+
+A discovered mechanism is not finished until it is cashed into the smallest honest settlement object that actually pays the whole bill.
+
+That settlement may be:
+
+- one weighted count
+- one ledger
+- one state object
+- one constructive lift
+- one final legality owner
+
+If the line still explains locally but has not yet settled globally, the core may be real but the task is not yet closed.
+
+The settlement layer is not a post-skill cleanup zone.
+
+Once a thinner carrier has appeared, primitive competition must stay alive there too:
+
+- symmetry if a final balance or exchange still owns the last degree of freedom
+- reverse if no-return law or reverse ownership makes the settlement thinner
+- assignment if one named anchor kills the remaining fake multiplicity
+- singularity if one edge case exposes the final certification seam
+- visual externalization if the remaining burden is adjacency, coexistence, or endpoint interaction
+- spiderweb compression if many locally legal endings are still colliding through one compatibility budget
+
+The run is stronger when the final settlement itself is completed by the same live cognition system rather than by generic continuation after the interesting part seems over.
+
+### 18A. Skeleton Is Not Completion
+
+A run that has found the right skeleton may still be far from done.
+
+High-risk skeletons include:
+
+- the right tree decomposition without the final query interface
+- the right static carrier without the value-side aggregation
+- the right DP direction without the final state minimization
+- the right answer family without the exact executable readout
+- the right closure object without the last certification or coexistence layer
+- the right construction family without the exact global compatibility test
+
+Do not confuse:
+
+- correct global shape
+- correct final settlement
+
+The first may expose where the truth lives.
+
+The second is what actually answers the task.
+
+### 18B. Local Legality Is Not Yet Simultaneous Realizability
+
+When several layers, positions, values, cuts, or local witnesses each look individually legal, do not yet conclude that they can all be realized together.
+
+Ask once more:
+
+- do these local choices compete for the same supply?
+- do they share hidden residue or ordering debt?
+- does choosing one legal local state remove another?
+- is there a global compatibility object still missing?
+
+If the answer is yes, local legality is only provisional.
+
+The task is closed only when simultaneous realizability has either been proved or compressed into one final compatibility object.
+
+### 18C. Final Interface Must Be Nameable
+
+Do not stop at:
+
+- the right decomposition
+- the right recursive split
+- the right frozen carrier
+- the right local checker
+
+until the last answering interface can be named concretely.
+
+High-value forms include:
+
+- one query API
+- one aggregation formula
+- one readable tensor or ledger
+- one compatibility object
+- one one-sided envelope or monoid
+- one weighted prefix / suffix state
+
+If the run still says only:
+
+- "then query this somehow"
+- "then combine the sides somehow"
+- "then do a DP"
+- "then aggregate globally"
+
+the interface is still missing.
+
+### 18D. Residual Axis Must Collapse Into The Interface
+
+When a run is already near completion, inspect what explicit free axis still survives outside the final interface.
+
+Typical late survivors:
+
+- which query endpoint
+- which side
+- which middle choice
+- which value layer
+- which pair geometry
+- which local legal choice
+
+Do not merely organize that axis better.
+
+Absorb it into the interface itself when honest:
+
+- a query monoid
+- a side envelope
+- a compatibility state
+- a bilinear ledger
+- a weighted readout formula
+
+If the axis still lives outside the named interface, closure is not done.
+
+### 18E. Final Interface Needs Operational Shape
+
+Naming the final object is still not enough.
+
+When a run claims it has reached the last carrier, ask once more:
+
+- what fields does this object actually carry?
+- how do same-level pieces merge into it?
+- where is local burden finally settled into the global answer?
+
+If those cannot yet be spoken concretely, the carrier is still only a strong middle object.
+
+High-value completion shapes include:
+
+- upload object plus same-level settlement ledger
+- compatibility state plus merge law
+- prefix object plus one exact readout formula
+- witness family plus one global coexistence rule
+
+Do not accept placeholder closure language such as:
+
+- "then combine the cases"
+- "then aggregate the children"
+- "then answer all queries"
+- "then attach the route contribution"
+
+until the operational shape is explicit.
+
+### 19. Layerwise Re-Selection
+
+Do not treat one awakened primitive as owner of the whole task by default.
+
+After each real thinning of the carrier, ask again which live pressure now matters most:
+
+- swap falsification
+- identity lock
+- anchor calibration
+- state necessity
+- lawful lift
+- global settlement
+
+The right primitive may change when:
+
+- a dynamic story has already frozen
+- a family has already been recognized
+- a residue is all that remains
+- a local explanation has already appeared but no final settlement object exists yet
+
+Strong runs do not merely find one good primitive.
+
+They keep re-selecting the next honest primitive as the carrier changes.
+
+### 19A. Primitive Composition Is Continuous
+
+Primitive composition is not a one-shot decoration near the top of a solve.
+
+It is a quiet continuity condition:
+
+- if one primitive has already done its work, do not keep dragging it across unrelated remaining burden
+- if the carrier has changed, let a different primitive wake without ceremony
+- if several primitives are live, let the current thinnest honest carrier decide which one leads now
+
+The target is not "use more tricks."
+
+The target is that every remaining burden is met by the primitive whose law most directly deletes it.
+
+### 19B. Re-Select At Every Peeled Layer
+
+Do not let the first successful primitive keep authority by inertia.
+
+After every real peel, ask again on the thinner carrier:
+
+- is the remaining burden now symmetry, reversal, assignment, singularity, picture, web compatibility, residue, or settlement?
+- did the previous primitive actually finish its job, or did it only open the shell?
+- is the current layer controlled by the same law, or did ownership move?
+
+If ownership moved, primitive choice must move too.
+
+The wrong feel here is:
+
+- one early clever move
+- then long ordinary continuation
+- then generic finishing language
+
+The right feel is:
+
+- one shell breaks
+- a thinner carrier appears
+- a different lawful primitive wakes naturally
+- the final settlement is still solved inside the same primitive game
+
+### 19C. Final Settlement Is Still A Cognitive Layer
+
+Do not downgrade the last step into routine finishing.
+
+Once the essence is exposed, keep pushing until the asked answer itself is carried by:
+
+- one exact readout
+- one exact certification object
+- one exact constructive pullback
+- or one exact compatibility state
+
+If the run still has to say:
+
+- "then combine"
+- "then answer"
+- "then aggregate"
+- "then reconstruct"
+
+the settlement layer is not yet cognitively closed.
+
+### 19D. Official Family Beats Beautiful Shadow
+
+When a benchmark has an official solution family or a verified equivalent family, that family is the promotion gate.
+
+Do not protect a candidate because it is:
+
+- elegant
+- globally organized
+- clearly countable
+- close in spirit
+
+if an independent witness shows it still belongs to the wrong family.
+
+A beautiful wrong closure object is still wrong.
+
+Near the end, prefer the candidate that:
+
+- cashes into the exact final answer family
+- exposes its final executable object
+- and can be pulled back into the asked answer interface
+
+over a candidate that only lands on a necessary shadow or a neighboring closure.
+
 ## Runtime Stance
 
 These laws bias notice. They do not prescribe order.
@@ -543,6 +1102,9 @@ The right use is quiet:
 - when several layers touch the same label, freq, dtype, or attached meaning, prefer the one that had final authority to preserve or reject it on the result
 - when a producer layer and a validator layer disagree in importance, prefer the validator layer unless the producer already made the later decision unavoidable
 - when a retention layer and a legality-check layer disagree in importance, prefer the legality-check layer unless retention already mechanically fixed the outcome
+- do not act as though one primitive invocation near the beginning has already covered the later layers; let the active primitive change as the carrier thins
+- after each genuine peel, silently re-evaluate which primitive now owns the remaining burden rather than continuing on stylistic inertia
+- prefer runs where primitive selection remains live all the way to the final settlement object over runs that peak early and then drift on generic continuation
 
 If the layer starts to behave like a mandatory sequence,
 it has already drifted away from its target.
