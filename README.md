@@ -252,4 +252,4 @@ What current evidence does not yet support:
 
 If you want to discuss the project, benchmarks, transfer behavior, or the metacognitive-runtime direction, you can reach out here:
 
-![WeChat QR Code](./assets/wechat-qr.jpg)
+<img src="./assets/wechat-qr.jpg" alt="WeChat QR Code" width="280" />
