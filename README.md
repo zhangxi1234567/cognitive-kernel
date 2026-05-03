@@ -119,10 +119,10 @@ Protocol:
 
 Current consolidated result:
 
-- `with-skill` wins: `13`
+- `with-skill` wins: `15`
 - ties: `1`
 - `no-skill` wins: `1`
-- average score: `90.0` vs `83.2`
+- average score: `90.0` vs `83.1`
 
 ### Headline Table
 
@@ -131,6 +131,8 @@ Current consolidated result:
 | `AGC012F - Prefix Median` | 82 | 58 | with-skill |
 | `AGC034F - RNG and XOR` | 97 | 94 | with-skill |
 | `2026 ICPC APC M - Deformed Balance` | 84 | 49 | with-skill |
+| `IOI 2018 - Werewolf` | 97 | 96 | with-skill |
+| `IOI 2018 - Meetings` | 83 | 68 | with-skill |
 | `IOI 2020 - Supertrees` | 96 | 94 | with-skill |
 | `IOI 2020 - Biscuits` | 99 | 97 | with-skill |
 | `IOI 2015 - towns` | 91 | 84 | with-skill |
