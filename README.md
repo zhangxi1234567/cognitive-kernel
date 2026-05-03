@@ -252,4 +252,4 @@ What current evidence does not yet support:
 
 If you want to discuss the project, benchmarks, transfer behavior, or the metacognitive-runtime direction, you can reach out here:
 
-![WeChat QR Code](C:/Users/21604/xwechat_files/wxid_tcqxmep17pdo22_fd17/temp/RWTemp/2026-05/72e80640c3d7d60b892a43fbab346a7f.jpg)
+![WeChat QR Code](./assets/wechat-qr.jpg)
