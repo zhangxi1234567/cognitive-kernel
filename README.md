@@ -1,6 +1,6 @@
 # Cognitive Kernel
 
-Mechanism-first cognitive runtime for LLMs.
+Mechanism-first cognitive runtime for LLMs, aimed at an early metacognitive layer.
 
 This project is not a prompt cookbook, a math trick shelf, or a visible workflow script.
 
@@ -12,6 +12,12 @@ It is a thin cross-domain cognition layer that biases a model toward:
 - anti-regrowth of fake complexity
 - exact cash-back to the asked interface
 
+In plain words:
+
+this repository tries to make a model less likely to stay trapped in surface narration,
+and more likely to notice when it is still holding the wrong carrier, the wrong owner,
+or only a beautiful middle object instead of the final closure.
+
 The target is not "solve more benchmark questions by memorizing tactics."
 
 The target is to make a model more likely to:
@@ -21,6 +27,34 @@ The target is to make a model more likely to:
 - keep primitive competition alive layer by layer
 - refuse beautiful but wrong middle objects
 - finish at an exact executable closure object
+
+## Early Metacognition, Not Full AGI
+
+This project should not be described as "already AGI."
+
+That would be loose and unserious.
+
+What it is trying to build is smaller and more specific:
+
+- an early self-checking layer
+- an early route-competition layer
+- an early false-essence rejection layer
+- an early "do not stop at the first elegant object" layer
+
+That is why "metacognitive" is the right word here, even if the present form is still primitive.
+
+The package is not just trying to help a model produce better answers.
+
+It is trying to make the model more likely to monitor the shape of its own reasoning while the reasoning is happening:
+
+- is this only surface symmetry?
+- is this a local mechanism or the final owner?
+- did I compress the real burden or only rename it?
+- am I stopping at a strong middle carrier without exact interface closure?
+
+That is a weak form of metacognition, but it is real.
+
+And if systems are ever going to reason robustly in unfamiliar domains, some version of this layer is hard to avoid.
 
 ## Why This Exists
 
@@ -44,6 +78,31 @@ The same layer is intended to transfer across:
 - algorithms
 - coding / debugging
 - translational research
+
+## Why This Matters For AGI
+
+Scaling helps models remember more, cover more, and search faster.
+
+But those gains do not automatically force a system to:
+
+- distrust surface costume
+- search for the smallest truthful carrier
+- generate rival explanations
+- eliminate bad routes cheaply
+- keep asking where the final authority actually lives
+- cash a deep mechanism back into an exact operational answer
+
+Those abilities sit closer to a cognition-structure problem than to a pure parameter-count problem.
+
+This repository is an attempt to prototype that missing layer in a reusable runtime form.
+
+So the claim is not:
+
+> this repository is AGI
+
+The claim is:
+
+> if we want systems that can approach unknown hard problems more like researchers and less like giant statistical autocomplete engines, then an explicit metacognitive compression layer is probably part of the road.
 
 ## Blind-Test Snapshot
 
@@ -89,6 +148,13 @@ The main pattern so far:
 
 - strongest gains appear when a task rewards finding a thinner true carrier and pushing all the way to a final settlement object
 - the clearest failure mode is stopping at a real local mechanism before the final authorizing boundary is fully pinned
+
+This fits the intended identity of the package:
+
+- not a topic skill
+- not a benchmark wrapper
+- not a tactic shelf
+- but a small cognition bias that changes where the model settles
 
 ## Package Layout
 
