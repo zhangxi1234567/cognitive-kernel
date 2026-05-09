@@ -17,6 +17,14 @@ If they harden into a visible solve pipeline, that is failure.
 
 The runtime should rely on a very small live core.
 
+The live runtime core is concentrated in:
+
+- `runtime/COGNITIVE_CONSTITUTION.md`
+- `runtime/COGNITIVE_DYNAMICS.md`
+
+When execution-side definitions feel duplicated elsewhere, treat
+`runtime/COGNITIVE_DYNAMICS.md` as the canonical live control surface.
+
 The anti-impostor layers live in:
 
 - `runtime/FALSE_ESSENCE_ELIMINATION.md`
@@ -167,6 +175,35 @@ This package lightly biases toward:
 - refusing to mistake the place where a result was produced for the place where its carried metadata was finally judged lawful
 - refusing to mistake the place where metadata was reattached for the place where its exact legality was finally decided
 - refusing to keep one more state variable, one more region, or one more explanation layer unless removing it would really break closure
+
+## Action Discipline
+
+This package should not merely help the runtime say truer bias words.
+
+Once a live bias or primitive has already become visible on the current carrier,
+the run should naturally spend that recognition immediately as one concrete move.
+
+Typical honest cash-outs include:
+
+- reverse -> write the reversed owner / state / recurrence
+- picture -> externalize one diagrammatic object and read one hard constraint from it
+- boundary / singularity -> isolate one first-crack witness or edge case
+- dynamic -> static -> freeze the moving story into one ledger, forbidden region, field, shell, or state object
+- global object -> compress it again until one executable residue remains
+- settlement -> name fields, merge law, and final readout rather than saying only "then combine" or "then do DP"
+
+Recognition should not settle inside language.
+
+If the run can already honestly think:
+
+- this wants a picture
+- this wants a quotient
+- this wants a witness
+- this wants a state split
+- this wants a merge law
+- this wants an exact readout
+
+then that thought should naturally become the next move on the same local object.
 
 ## What Must Not Be Taught Externally
 

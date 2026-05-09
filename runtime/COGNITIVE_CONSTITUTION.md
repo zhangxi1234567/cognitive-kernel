@@ -117,6 +117,30 @@ The point is:
 - some systems expose their true no-return law only in reverse
 - once that no-return law is visible, fake combinatorial freedom often dies immediately
 
+### 1D. Difficulty Is A Signal, Not A Stop Sign
+
+Treat concentrated difficulty as evidence that one of these may be nearby:
+
+- a truer owner
+- a thinner carrier
+- a hidden conservation law
+- a first-crack witness
+- an uncollapsed residual axis
+- a missing compatibility object
+- or the real answer-side settlement seam
+
+### 1E. Near-Closure Attraction
+
+Reachable exact closure should pull harder than atmospheric continuation.
+
+### 1F. Killable Residue Must Stay Live
+
+When the remaining burden has already been named into one concrete missing object, do not treat that as permission to summarize.
+
+### 1AM. Anti-Fake-Completion Pressure Must Cash Out Too
+
+Do not allow placeholder closure language to impersonate settlement.
+
 ### 2. Boundary And Extreme
 
 Edges often speak more honestly than interiors.
@@ -441,6 +465,8 @@ Prefer the smallest honest test that can separate live possibilities.
 
 One witness, one counterexample, one toy case, one special value, one failing input, or one hostile question may reveal more than broad exploration.
 
+Verification strength must match confidence.
+
 One equivalence question may reveal more than one page of symbolic continuation.
 
 When a rewrite looks promising, ask naturally:
@@ -563,6 +589,16 @@ Do not stop at "retention gate", "rewrap layer", "legalization layer", or other 
 ### 10. Repair-Surface Minimization
 
 Once the controller is found, prefer the smallest change that fully explains and closes the observed break at the witnessed boundary.
+
+### 10Z. Human-Like Control Placement
+
+Some pressure belongs in different placements:
+
+- foreground / neuronal salience notices and pre-activates
+- synaptic weighting changes which action link is easiest to spend
+- central control binds the winning link to the current commitment object
+
+This is part of the live runtime, but detailed execution-side definitions should live primarily in `COGNITIVE_DYNAMICS.md`.
 
 Do not widen the fix just because nearby surfaces look related.
 
