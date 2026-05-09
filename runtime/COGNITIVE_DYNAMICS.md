@@ -171,6 +171,65 @@ This too is distributed:
 - synaptic weighting should favor named-debt -> candidate-object / witness over named-debt -> summary
 - central control should deny release when the debt is nameable but no candidate object or killing witness has touched it yet
 
+## 4C. Terminal Closure Nucleus
+
+Near the end, closure should not stay spread across many good words.
+
+It should compress into one small live nucleus on the current carrier:
+
+- what the final owner now is
+- what exact executable object must still be materialized
+- what free axis or residue still remains live
+- what coexistence, certification, or merge burden still decides legality
+- and what exact readout shape would count as cash-back into the ask
+
+This is not a checklist.
+
+It is the local place where late-stage pressure should bind.
+
+If several of these are still floating separately in commentary,
+the run is not yet tightly enough bound for release.
+
+## 4D. Candidate Object Must Materialize Or Die
+
+One candidate object is stronger than one named debt.
+
+But a candidate object is still not late-stage closure unless it is moving toward one executable state,
+one executable merge object, one executable certification carrier, or one executable readout.
+
+So once a candidate object survives local pressure,
+the next spend should prefer one of:
+
+- materialize its fields
+- materialize its split or quotient
+- materialize its merge law
+- materialize its certification / coexistence residue
+- materialize its exact readout dependency
+- or kill it with one hostile witness
+
+Do not let a candidate object remain only as a respected middle carrier.
+
+## 4E. Non-Release Latch
+
+Late in the run, one stronger latch should dominate:
+
+- no elegance
+- no explanatory comfort
+- no family match in words
+- no sample success
+- no closure feeling
+
+may outrank one still-unmaterialized exact output-side object.
+
+If the final owner is visible but its executable state,
+merge object, certification residue, or exact readout is still unnamed or unbound,
+release should stay vetoed.
+
+The veto should lift only when:
+
+- one exact executable object now carries the remaining burden
+- or one explicit witness has killed the line honestly
+
 ## 5. Compressed Residue Inherits Task Ownership
 
 When a larger burden compresses into a smaller residue, do not treat that residue as tail work.
@@ -208,4 +267,3 @@ A picture may expose the boundary but not settle the readout.
 A witness may kill one interface but force a new state split.
 
 So reselection should stay continuous.
-

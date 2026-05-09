@@ -183,6 +183,35 @@ Promotion language should stay strict:
 
 If one lane matches the official family less elegantly and another misses it more elegantly, prefer the ugly correct family.
 
+## Winning-Line Materialization Gate
+
+After one candidate wins, do not let victory stop at family recognition.
+
+The surviving line should still be pressed on one smaller question:
+
+- what exact executable object now remains between this line and release?
+
+Typical late-stage survivors include:
+
+- one exact state
+- one exact quotient / split
+- one exact merge or coexistence carrier
+- one exact certification residue
+- one exact readout object
+
+If the winning line still answers mainly with:
+
+- "the structure is there"
+- "the right family is clear"
+- "then combine"
+- "then reconstruct"
+- "then aggregate"
+
+it has not materialized enough to deserve late-stage confidence.
+
+Near release, prefer the line that can speak the narrowest honest executable object,
+not the one that merely defends the strongest middle carrier.
+
 ## Layerwise Tie-Break
 
 If two lanes share the same early shell break, prefer the one that:
