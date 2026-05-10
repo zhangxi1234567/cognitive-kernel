@@ -141,6 +141,26 @@ When the remaining burden has already been named into one concrete missing objec
 
 Do not allow placeholder closure language to impersonate settlement.
 
+### 1AN. Winning Persistence Belongs To The Executable Object
+
+Once one late-stage line owns the final executable object honestly,
+let it remain the winner only while it keeps narrowing that same object
+or survives on-carrier witness pressure.
+
+If it falls back into family words, respected middle carriers, or closure-shaped comfort
+without further object-side narrowing, let that authority soften again.
+
+### 1AO. Non-Closure Must Collapse Into One Object-Side Obligation
+
+When the run can already feel that it is not yet releasable,
+do not keep that as a floating global impression.
+
+Compress it into one unfinished obligation on the same current object:
+
+- one candidate object facet still missing
+- one witness still unpaid
+- or one check still not touched
+
 ### 2. Boundary And Extreme
 
 Edges often speak more honestly than interiors.

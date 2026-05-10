@@ -132,6 +132,7 @@ The following do not count as bound:
 - naming the blocker more elegantly
 - saying what should happen later
 - carrying one general intention without one object-side operation
+- repeating the right counter-question without one corresponding object-side move
 
 ## 4A. Counter-Question, Check, And Compatibility Must Couple
 
@@ -141,6 +142,13 @@ These pressures should be allowed to wake each other locally.
 - A failed check should not end in commentary; it should either sharpen the residue or force a compatibility object.
 - When many locally legal moves still collide, web pressure should cash into one explicit coexistence carrier, budget, cut, state, or merge law.
 
+If a counter-question has already exposed exact unpaid debt,
+the next local step should not count as progress unless it bites the same carrier as:
+
+- one candidate object
+- one killing witness
+- or one concrete check
+
 If the run is already locally able to answer:
 
 - which pressure should enter next
@@ -149,6 +157,40 @@ If the run is already locally able to answer:
 then that answer should not wait for external prompting to become active.
 
 It should immediately count as local execution debt.
+
+If that debt is already exact and still does not touch the object,
+the run should count as stalled rather than as still-progressing commentary.
+
+If a counter-question has already made the missing thing concrete enough to name,
+it should not remain a question for long.
+
+It should quickly bite the object on the same seam as:
+
+- one candidate object field
+- one hostile witness
+- one compatibility / coexistence fragment
+- one exact readout dependency
+- or one binding split on the current carrier
+
+A good counter-question is still incomplete while it has not yet changed the current object in one of those ways.
+
+If release would already be denied on that same seam,
+the counter-question should default even more strongly into one of those object-side changes,
+not into better family language about why the seam is hard.
+
+If rivalry, unpaid conflict, or unresolved coexistence is still live,
+that should not mainly produce more commentary.
+
+It should lower confidence and force one narrower object-side spend:
+
+- one sharper seam
+- one sharper witness
+- one coexistence / compatibility carrier
+- one narrower owner
+- or one smaller executable residue
+
+If none of these has appeared yet,
+the conflict has not been made local enough to deserve settlement pressure.
 
 ## 4B. Named Debt Must Become Candidate Object
 
@@ -164,6 +206,14 @@ At that point the next local spend should usually become one of:
 - or one hostile witness against the last candidate
 
 Repeating "I still need X" without proposing one candidate object or one killing witness is still orbiting on named debt.
+
+Near the terminal region, this is the same event as "not yet releasable."
+
+It should be interpreted locally as:
+
+- the same current object is still underbound
+- so the next spend must stay on that object
+- and must become either candidate object, killing witness, or concrete check
 
 This too is distributed:
 
@@ -190,6 +240,38 @@ It is the local place where late-stage pressure should bind.
 If several of these are still floating separately in commentary,
 the run is not yet tightly enough bound for release.
 
+Slot locking should stay strict:
+
+- while more than one executable residue still speaks with real authority,
+  the terminal slot is not yet honestly locked
+
+Near release, foreground should prefer the same slot strongly enough
+that nearby explanation, family language, and decorative alternatives cool
+unless they sharpen or kill that same slot.
+
+Terminal lock is strongest only when the same single object:
+
+- occupies the bound slot
+- carries the remaining burden
+- and is the object that survives the non-release latch
+
+If these split apart, the lock is not yet real.
+
+If the run can already see that the slot is not yet releasable,
+that should be read first as:
+
+- this same object is still underbound here
+
+and only secondarily as a global warning.
+
+So the default response to non-release should not be broader commentary.
+
+It should return pressure to the same slot as:
+
+- one more materialized object facet
+- one killing witness
+- or one concrete check that sharpens or tears that object
+
 ## 4D. Candidate Object Must Materialize Or Die
 
 One candidate object is stronger than one named debt.
@@ -209,6 +291,12 @@ the next spend should prefer one of:
 
 Do not let a candidate object remain only as a respected middle carrier.
 
+If one candidate object keeps converting the remaining burden into the same narrower executable object,
+local authority should stay with it.
+
+If it stalls and falls back into family words, closure words, or placeholder finishing language,
+that authority should soften and nearby competition should be allowed to wake again.
+
 ## 4E. Non-Release Latch
 
 Late in the run, one stronger latch should dominate:
@@ -225,10 +313,55 @@ If the final owner is visible but its executable state,
 merge object, certification residue, or exact readout is still unnamed or unbound,
 release should stay vetoed.
 
+This veto should not feel like a late checklist.
+
+It should feel like one stronger central inhibition:
+
+- if the answer-side object is still not executable,
+  nothing nearby is yet allowed to count as enough
+
 The veto should lift only when:
 
 - one exact executable object now carries the remaining burden
 - or one explicit witness has killed the line honestly
+
+If the veto is active and the next move is still only summary, reframing, or family defense,
+the run is still stalled at the same underbound object.
+
+## 4F. Closure Must Touch The Asked Medium
+
+Internal closure is still not release if the asked interface has not been touched.
+
+If the task asks for:
+
+- one code artifact
+- one written answer
+- one explicit construction
+- one stated readout
+- one file-side deliverable
+- or one executable verification result
+
+then the late-stage object should keep narrowing until it cashes into that same medium.
+
+The following do not count as final contact:
+
+- "I now basically know the algorithm"
+- one respected middle carrier without written pullback
+- one unwritten answer-side object
+- one intended file not yet materialized
+- one verification plan not yet run
+
+Near release, the writable / speakable / executable surface requested by the task
+should stay inside the terminal slot itself, not outside it as clerical afterwork.
+
+If the object is internally almost closed but the asked medium is still untouched,
+foreground should prefer one smaller delivery-side spend on that same object:
+
+- write the candidate code
+- write the exact answer/readout
+- write the constructive pullback
+- write the file-side artifact
+- or run the exact check that certifies the object in place
 
 ## 5. Compressed Residue Inherits Task Ownership
 

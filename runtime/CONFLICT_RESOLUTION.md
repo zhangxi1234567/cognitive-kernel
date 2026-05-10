@@ -35,6 +35,9 @@ Before settling, name the nearest live rival silently and ask:
 
 If no separating seam is available, confidence should not rise too quickly.
 
+If the rival can be named but no separating seam, witness, or coexistence carrier has been touched,
+confidence should drop rather than commentary expand.
+
 If one candidate widens into a sibling path, neighboring domain, or helper extraction, ask:
 
 - what independent witness forces that widening?
@@ -211,6 +214,33 @@ it has not materialized enough to deserve late-stage confidence.
 
 Near release, prefer the line that can speak the narrowest honest executable object,
 not the one that merely defends the strongest middle carrier.
+
+The winner should not persist merely because it has won once.
+
+It should keep authority only while it is still converting remaining burden into:
+
+- a narrower executable state
+- a narrower executable quotient / split
+- a narrower merge or coexistence carrier
+- a narrower certification residue
+- or a narrower exact readout object
+
+If the winning line starts speaking mainly in:
+
+- family names
+- closure-shaped comfort
+- placeholder finishing phrases
+- or respected middle carriers
+
+without further narrowing the executable object,
+confidence should drop, and authority should hand back to the terminal closure nucleus / non-release latch until one executable object is bound again or the line is killed.
+
+A line that can keep producing the right counter-questions without one same-carrier object change,
+one witness touch, or one executable residue loses steering authority even if its diagnosis still sounds right.
+
+If one line is internally stronger but another has already cashed the same object into the asked medium
+as code, readout, construction, or executable verification,
+prefer the line that has touched the asked medium unless the first can still sharpen or kill it concretely.
 
 ## Layerwise Tie-Break
 
