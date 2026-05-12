@@ -1,0 +1,370 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "wu-boshi-perspective/runtime/control-state.schema.json",
+  "title": "Wu Boshi Runtime Control State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "current_object",
+    "current_debt",
+    "next_bite",
+    "asked_medium_surface",
+    "revocation_handle",
+    "uncertainty_mode",
+    "primary_slot",
+    "bound_program",
+    "release_veto",
+    "output_status",
+    "memory_residue"
+  ],
+  "properties": {
+    "current_object": { "type": "string", "minLength": 1 },
+    "current_seam": { "type": "string", "minLength": 0 },
+    "current_debt": { "type": "string", "minLength": 1 },
+    "next_bite": { "type": "string", "minLength": 1 },
+    "asked_medium_surface": { "type": "string", "minLength": 1 },
+    "revocation_handle": { "type": "string", "minLength": 1 },
+    "uncertainty_mode": {
+      "type": "string",
+      "enum": ["high", "low", "mixed", "unknown"]
+    },
+    "primary_slot": { "type": "string", "minLength": 1 },
+    "bound_program": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["kind", "target", "operation"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["write", "check", "readout", "witness"]
+        },
+        "target": { "type": "string", "minLength": 1 },
+        "operation": { "type": "string", "minLength": 1 },
+        "success_signal": { "type": "string", "minLength": 1 }
+      }
+    },
+    "gate_binding_if_any": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": [
+        "source_focus",
+        "source_target",
+        "demoted_continuation",
+        "authority_until"
+      ],
+      "properties": {
+        "source_focus": {
+          "type": "string",
+          "enum": ["seam", "rival", "carrier", "asked_medium"]
+        },
+        "source_target": { "type": "string", "minLength": 1 },
+        "demoted_continuation": { "type": "string", "minLength": 1 },
+        "authority_until": {
+          "type": "string",
+          "enum": [
+            "same_carrier_change",
+            "hostile_witness",
+            "exact_check",
+            "asked_medium_failure"
+          ]
+        }
+      }
+    },
+    "primitive_field_if_any": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["layer_object", "active_primitives", "why_now"],
+      "properties": {
+        "layer_object": { "type": "string", "minLength": 1 },
+        "active_primitives": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "enum": [
+              "symmetry",
+              "limit_boundary",
+              "conservation",
+              "projection",
+              "assignment",
+              "reverse",
+              "picture",
+              "witness",
+              "state_split",
+              "compatibility",
+              "readout",
+              "vector_difference_readout",
+              "common_value_compression",
+              "container_to_cross_section",
+              "area_to_line_readout",
+              "matching_instead_of_probability",
+              "grid_selection_permutation",
+              "compare_without_calculating",
+              "dot_product_projection",
+              "canonical_normalization",
+              "projection_readout",
+              "dominant_mechanism_readout",
+              "local_seam_controls_global",
+              "definition_as_direct_readout",
+              "symmetry_as_variable_killer",
+              "boundary_as_route_finder",
+              "model_calling_before_derivation",
+              "special_value_probing",
+              "function_archetype_matching"
+            ]
+          }
+        },
+        "tie_break_check": { "type": "string", "minLength": 1 },
+        "selection_basis": {
+          "type": "string",
+          "enum": ["explicit_hint", "tie_break", "agenda_hint", "text_fallback"]
+        },
+        "evidence_basis": {
+          "type": "string",
+          "enum": ["explicit_hint", "state_witness", "cheap_check", "lexical_hint", "mixed"]
+        },
+        "why_now": { "type": "string", "minLength": 1 }
+      }
+    },
+    "primitive_competition_if_any": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["layer_object", "candidates"],
+      "properties": {
+        "layer_object": { "type": "string", "minLength": 1 },
+        "candidates": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["primitive", "touch_target", "expected_local_gain"],
+            "properties": {
+              "primitive": {
+                "type": "string",
+                "enum": [
+                  "symmetry",
+                  "limit_boundary",
+                  "conservation",
+                  "projection",
+                  "assignment",
+                  "reverse",
+                  "picture",
+                  "witness",
+                  "state_split",
+                  "compatibility",
+                  "readout",
+                  "vector_difference_readout",
+                  "common_value_compression",
+                  "container_to_cross_section",
+                  "area_to_line_readout",
+                  "matching_instead_of_probability",
+                  "grid_selection_permutation",
+                  "compare_without_calculating",
+                  "dot_product_projection",
+                  "canonical_normalization",
+                  "projection_readout",
+                  "dominant_mechanism_readout",
+                  "local_seam_controls_global",
+                  "definition_as_direct_readout",
+                  "symmetry_as_variable_killer",
+                  "boundary_as_route_finder",
+                  "model_calling_before_derivation",
+                  "special_value_probing",
+                  "function_archetype_matching"
+                ]
+              },
+              "touch_target": { "type": "string", "minLength": 1 },
+              "expected_local_gain": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "separating_check": { "type": "string", "minLength": 1 },
+        "winner_if_any": {
+          "type": "string",
+          "enum": [
+            "symmetry",
+            "limit_boundary",
+            "conservation",
+            "projection",
+            "assignment",
+            "reverse",
+            "picture",
+            "witness",
+            "state_split",
+            "compatibility",
+            "readout",
+            "vector_difference_readout",
+            "common_value_compression",
+            "container_to_cross_section",
+            "area_to_line_readout",
+            "matching_instead_of_probability",
+            "grid_selection_permutation",
+            "compare_without_calculating",
+            "dot_product_projection",
+            "canonical_normalization",
+            "projection_readout",
+            "dominant_mechanism_readout",
+            "local_seam_controls_global",
+            "definition_as_direct_readout",
+            "symmetry_as_variable_killer",
+            "boundary_as_route_finder",
+            "model_calling_before_derivation",
+            "special_value_probing",
+            "function_archetype_matching"
+          ]
+        }
+      }
+    },
+    "carrier_handoff_if_any": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["trigger", "from_slot", "to_object", "winning_pressure", "why_local"],
+      "properties": {
+        "trigger": {
+          "type": "string",
+          "enum": [
+            "same_carrier_change",
+            "hostile_witness",
+            "exact_check",
+            "asked_medium_failure",
+            "residue_inherited"
+          ]
+        },
+        "from_slot": { "type": "string", "minLength": 1 },
+        "to_object": { "type": "string", "minLength": 1 },
+        "winning_pressure": { "type": "string", "minLength": 1 },
+        "cooled_pressure_if_any": { "type": "string", "minLength": 1 },
+        "why_local": { "type": "string", "minLength": 1 },
+        "warm_field": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [],
+          "properties": {
+            "active_pressures": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 2,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "primitive_hints": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 2,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "symmetry",
+                  "limit_boundary",
+                  "conservation",
+                  "projection",
+                  "assignment",
+                  "reverse",
+                  "picture",
+                  "witness",
+                  "state_split",
+                  "compatibility",
+                  "readout",
+                  "vector_difference_readout",
+                  "common_value_compression",
+                  "container_to_cross_section",
+                  "area_to_line_readout",
+                  "matching_instead_of_probability",
+                  "grid_selection_permutation",
+                  "compare_without_calculating",
+                  "dot_product_projection",
+                  "canonical_normalization",
+                  "projection_readout",
+                  "dominant_mechanism_readout",
+                  "local_seam_controls_global",
+                  "definition_as_direct_readout",
+                  "symmetry_as_variable_killer",
+                  "boundary_as_route_finder",
+                  "model_calling_before_derivation",
+                  "special_value_probing",
+                  "function_archetype_matching"
+                ]
+              }
+            },
+            "cheap_check": { "type": "string", "minLength": 1 },
+            "evidence_basis": {
+              "type": "string",
+              "enum": ["explicit_hint", "state_witness", "cheap_check", "lexical_hint", "mixed"]
+            }
+          }
+        }
+      }
+    },
+    "materialization_evidence": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["kind", "location", "summary"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["file", "command", "check", "artifact"]
+        },
+        "location": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 }
+      }
+    },
+    "secondary_rival_if_any": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["object", "debt", "bite", "separating_advantage"],
+      "properties": {
+        "object": { "type": "string", "minLength": 1 },
+        "debt": { "type": "string", "minLength": 1 },
+        "bite": { "type": "string", "minLength": 1 },
+        "separating_advantage": { "type": "string", "minLength": 1 }
+      }
+    },
+    "release_veto": { "type": "boolean" },
+    "unresolved_markers": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "output_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "touched",
+        "cosmetic_only",
+        "contains_unsupported",
+        "contains_placeholder",
+        "final_artifact_materialized"
+      ],
+      "properties": {
+        "touched": { "type": "boolean" },
+        "cosmetic_only": { "type": "boolean" },
+        "contains_unsupported": { "type": "boolean" },
+        "contains_placeholder": { "type": "boolean" },
+        "final_artifact_materialized": { "type": "boolean" }
+      }
+    },
+    "memory_residue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "description", "replayable"],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "competition_texture",
+              "distrust_bias",
+              "witness_readiness",
+              "readout_sensitivity",
+              "boundary_residue"
+            ]
+          },
+          "description": { "type": "string", "minLength": 1 },
+          "replayable": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

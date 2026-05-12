@@ -1,0 +1,38 @@
+﻿{
+  "schema_version": "draft-0.1",
+  "name": "wu-boshi-perspective",
+  "display_name": "Wu Boshi Perspective",
+  "kind": "thin-bias",
+  "compatibility": {
+    "codex_skill": true,
+    "codex_workspace": true,
+    "claude_code": true,
+    "openai_agent": true,
+    "host_native_parity": false
+  },
+  "identity": {
+    "mode": "mechanism-first",
+    "non_workflow": true,
+    "cross_domain": true,
+    "non_menu": true,
+    "non_objectified": true
+  },
+  "entrypoints": {
+    "codex_skill": "SKILL.md",
+    "codex_workspace": "AGENTS.md",
+    "claude_code": "CLAUDE.md",
+    "openai_agent": "agents/openai.yaml",
+    "compatibility": "COMPATIBILITY.md"
+  },
+  "notes": [
+    "Thin boundary only.",
+    "This is a cross-domain cognition layer, not a math tactic package.",
+    "It may act like a cognition-parameter supplement, but must not harden into a workflow or exam-machine.",
+    "Structural entrypoint compatibility only; not perfect host-native parity.",
+    "No routing surface, no active refs, no composition registry.",
+    "Behavior must emerge in live reasoning, not from manifest orchestration.",
+    "Do not treat named mechanisms as a solve-time menu.",
+    "Host readers should prefer the live runtime surface under runtime/ and tools/, especially current-layer primitive, control, inhibition, and semantics readouts.",
+    "The public kernel remains small, but the live runtime now also exposes thin primitive semantics, control signals, primitive control, meta-controls, incentive field, and micro-control surfaces."
+  ]
+}

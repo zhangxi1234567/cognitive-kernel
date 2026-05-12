@@ -1,0 +1,48 @@
+{
+  "current_object": "solver.cpp exact DP implementation",
+  "current_seam": "solver.cpp exact DP implementation",
+  "current_debt": "Need exact readout in solver.cpp exact DP implementation",
+  "next_bite": "solver.cpp exact DP implementation",
+  "asked_medium_surface": "solver.cpp exact DP implementation",
+  "revocation_handle": "Brute-force mismatch on small cases",
+  "uncertainty_mode": "low",
+  "primary_slot": "exact-closure",
+  "bound_program": {
+    "kind": "readout",
+    "target": "solver.cpp exact DP implementation",
+    "operation": "materialize_exact_asked_medium_readout",
+    "success_signal": "asked_medium_is_exact_and_executable"
+  },
+  "gate_binding_if_any": {
+    "source_focus": "asked_medium",
+    "source_target": "solver.cpp exact DP implementation",
+    "demoted_continuation": "structure_talk_before_asked_medium_contact",
+    "authority_until": "asked_medium_failure",
+    "owner_skill_if_any": "exact_closure"
+  },
+  "primitive_field_if_any": {
+    "layer_object": "solver.cpp exact DP implementation",
+    "active_primitives": [
+      "readout",
+      "definition_as_direct_readout"
+    ],
+    "why_now": "the current controller is locally visible enough to stay thin",
+    "selection_basis": "tie_break",
+    "evidence_basis": "cheap_check",
+    "tie_break_check": "solver.cpp exact DP implementation"
+  },
+  "primitive_competition_if_any": null,
+  "carrier_handoff_if_any": null,
+  "secondary_rival_if_any": null,
+  "materialization_evidence": null,
+  "release_veto": true,
+  "unresolved_markers": [],
+  "output_status": {
+    "touched": false,
+    "cosmetic_only": false,
+    "contains_unsupported": false,
+    "contains_placeholder": false,
+    "final_artifact_materialized": false
+  },
+  "memory_residue": []
+}

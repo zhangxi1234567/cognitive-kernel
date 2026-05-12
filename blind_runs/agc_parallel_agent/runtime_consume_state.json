@@ -1,0 +1,27 @@
+{
+  "current_object": "Exact solver artifact",
+  "current_seam": "",
+  "current_debt": "Need exact asked-medium write",
+  "next_bite": "solver.cpp exact DP implementation",
+  "asked_medium_surface": "solver.cpp exact DP implementation",
+  "revocation_handle": "A brute-force mismatch on small cases",
+  "uncertainty_mode": "low",
+  "primary_slot": "exact-closure",
+  "bound_program": null,
+  "gate_binding_if_any": null,
+  "primitive_field_if_any": null,
+  "primitive_competition_if_any": null,
+  "carrier_handoff_if_any": null,
+  "secondary_rival_if_any": null,
+  "materialization_evidence": null,
+  "release_veto": true,
+  "unresolved_markers": [],
+  "output_status": {
+    "touched": false,
+    "cosmetic_only": false,
+    "contains_unsupported": false,
+    "contains_placeholder": false,
+    "final_artifact_materialized": false
+  },
+  "memory_residue": []
+}

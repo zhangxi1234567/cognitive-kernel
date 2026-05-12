@@ -1,0 +1,27 @@
+{
+  "current_object": "Backward interval span DP for prefix medians",
+  "current_seam": "",
+  "current_debt": "Need bindable next touch for proof and implementation",
+  "next_bite": "Materialize the DP recurrence and code artifact",
+  "asked_medium_surface": "solver.cpp plus verification outputs",
+  "revocation_handle": "Brute-force mismatch on small cases",
+  "uncertainty_mode": "mixed",
+  "primary_slot": "dp-materialization",
+  "bound_program": null,
+  "gate_binding_if_any": null,
+  "primitive_field_if_any": null,
+  "primitive_competition_if_any": null,
+  "carrier_handoff_if_any": null,
+  "secondary_rival_if_any": null,
+  "materialization_evidence": null,
+  "release_veto": true,
+  "unresolved_markers": [],
+  "output_status": {
+    "touched": false,
+    "cosmetic_only": false,
+    "contains_unsupported": false,
+    "contains_placeholder": false,
+    "final_artifact_materialized": false
+  },
+  "memory_residue": []
+}

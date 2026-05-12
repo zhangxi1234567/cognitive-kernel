@@ -1,0 +1,55 @@
+{
+  "current_object": "obj",
+  "current_seam": "",
+  "current_debt": "debt",
+  "next_bite": "bite",
+  "asked_medium_surface": "out",
+  "revocation_handle": "rev",
+  "uncertainty_mode": "high",
+  "primary_slot": "slot",
+  "bound_program": {
+    "kind": "check",
+    "target": "obj",
+    "operation": "do check"
+  },
+  "gate_binding_if_any": null,
+  "primitive_field_if_any": {
+    "layer_object": "obj",
+    "active_primitives": [
+      "symmetry",
+      "witness"
+    ],
+    "why_now": "gain1; gain2",
+    "selection_basis": "tie_break",
+    "evidence_basis": "cheap_check"
+  },
+  "primitive_competition_if_any": {
+    "layer_object": "obj",
+    "candidates": [
+      {
+        "primitive": "symmetry",
+        "touch_target": "obj",
+        "expected_local_gain": "gain1"
+      },
+      {
+        "primitive": "witness",
+        "touch_target": "obj",
+        "expected_local_gain": "gain2"
+      }
+    ],
+    "winner_if_any": "symmetry"
+  },
+  "carrier_handoff_if_any": null,
+  "secondary_rival_if_any": null,
+  "materialization_evidence": null,
+  "release_veto": true,
+  "unresolved_markers": [],
+  "output_status": {
+    "touched": false,
+    "cosmetic_only": false,
+    "contains_unsupported": false,
+    "contains_placeholder": false,
+    "final_artifact_materialized": false
+  },
+  "memory_residue": []
+}

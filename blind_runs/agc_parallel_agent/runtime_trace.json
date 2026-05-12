@@ -1,0 +1,483 @@
+{
+  "state_file": "C:\\Users\\21604\\Desktop\\\u65b0\u5efa\u6587\u4ef6\u5939\\blind_runs\\agc_parallel_agent\\runtime_bindable_state.json",
+  "runtime_evidence": {
+    "event_log": "C:\\Users\\21604\\Desktop\\\u65b0\u5efa\u6587\u4ef6\u5939\\blind_runs\\agc_parallel_agent\\runtime_bindable_state.events.jsonl",
+    "event_count": 3,
+    "consumption_event_count": 1,
+    "latest_event_command": "bind-local",
+    "latest_consumption_command": "bind-local",
+    "has_runtime_consumption": true,
+    "runtime_subject_qualified": true
+  },
+  "events": [
+    {
+      "ts": "2026-05-12T02:18:53.605295+00:00",
+      "command": "init",
+      "event_kind": "bootstrap",
+      "before": {
+        "current_object": "",
+        "current_seam": "",
+        "current_debt": "",
+        "next_bite": "",
+        "asked_medium_surface": "",
+        "release_veto": null
+      },
+      "after": {
+        "current_object": "solver.cpp exact DP implementation",
+        "current_seam": "solver.cpp exact DP implementation",
+        "current_debt": "Need exact readout in solver.cpp exact DP implementation",
+        "next_bite": "solver.cpp exact DP implementation",
+        "asked_medium_surface": "solver.cpp exact DP implementation",
+        "release_veto": true
+      },
+      "report_excerpt": {
+        "primitive_field": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "active_primitives": [
+            "definition_as_direct_readout",
+            "readout"
+          ],
+          "why_now": "the current controller is locally visible enough to stay thin",
+          "selection_basis": "tie_break",
+          "evidence_basis": "cheap_check",
+          "tie_break_check": "solver.cpp exact DP implementation"
+        },
+        "skill_field": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "active_skills": [
+            "definition_as_direct_readout",
+            "readout",
+            "final_owner",
+            "grasp_essence",
+            "counter_question",
+            "exact_closure",
+            "supervision",
+            "metacognition",
+            "central_control",
+            "hindbrain_guard",
+            "reward_penalty_shaping"
+          ],
+          "why_now": "the current controller is locally visible enough to stay thin",
+          "selection_basis": "tie_break",
+          "evidence_basis": "cheap_check",
+          "closure_authority_skill_if_any": "exact_closure"
+        },
+        "skill_competition": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "candidates": [
+            {
+              "skill": "exact_closure",
+              "touch_target": "solver.cpp exact DP implementation",
+              "expected_local_gain": "deny release drift and force exact asked-medium contact",
+              "backed_by": "control"
+            },
+            {
+              "skill": "counter_question",
+              "touch_target": "solver.cpp exact DP implementation",
+              "expected_local_gain": "kill decorative progress with one cheap falsifier",
+              "backed_by": "control"
+            }
+          ],
+          "separating_check": "",
+          "winning_skill_if_any": "exact_closure"
+        },
+        "skill_inhibition": {
+          "owner": "asked_medium",
+          "promoted_skill_if_any": "exact_closure",
+          "demoted_skills": [
+            "grasp_essence"
+          ],
+          "gate_until": "asked_medium_contact_or_exact_executable_closure",
+          "winning_skill_if_any": "exact_closure"
+        },
+        "skill_authority_bridge": {
+          "winning_skill_if_any": "exact_closure",
+          "executable_local_touch_if_any": {
+            "kind": "readout",
+            "target": "solver.cpp exact DP implementation",
+            "operation": "materialize_exact_asked_medium_readout",
+            "success_signal": "asked_medium_is_exact_and_executable",
+            "origin": "derived"
+          },
+          "silence_after_contact": true,
+          "same_carrier_only": true
+        },
+        "probe_discipline": {
+          "active": true,
+          "probe_must_bind": true,
+          "unbound_probe_is_drift": true,
+          "probe_like_primitives": [],
+          "preferred_probe_target": "solver.cpp exact DP implementation",
+          "allowed_probe_kinds": [
+            "check",
+            "witness"
+          ],
+          "candidate_skill_hypotheses": [
+            "definition_as_direct_readout",
+            "final_owner",
+            "grasp_essence"
+          ],
+          "active_skill_hypothesis": "",
+          "hypothesis_binding_strength": "unbound",
+          "reason": "current probe pressure has no live skill hypothesis binding yet",
+          "drift_signal": "pattern_probe_without_skill_binding"
+        },
+        "closure_nucleus": {
+          "object": "solver.cpp exact DP implementation",
+          "debt": "Need exact readout in solver.cpp exact DP implementation",
+          "asked_medium_surface": "solver.cpp exact DP implementation",
+          "revocation_handle": "Brute-force mismatch on small cases",
+          "same_carrier_only": true,
+          "no_route_growth": false,
+          "owner": "same_carrier",
+          "current_structural_bite_if_any": {
+            "kind": "write",
+            "target": "solver.cpp exact DP implementation",
+            "operation": "Write the answer directly through the exact defining relation.",
+            "success_signal": "definition-side readout landed on solver.cpp exact DP implementation",
+            "origin": "primitive_field"
+          },
+          "current_readout_bite_if_any": {
+            "kind": "readout",
+            "target": "solver.cpp exact DP implementation",
+            "operation": "materialize_exact_asked_medium_readout",
+            "success_signal": "asked_medium_is_exact_and_executable",
+            "origin": "derived"
+          },
+          "separating_check_if_any": "",
+          "winner_if_any": "",
+          "competition_candidates": [],
+          "closure_target": "solver.cpp exact DP implementation",
+          "required_contact": "readout",
+          "blocks_release": true,
+          "supervision_owner": "closure",
+          "supervision_until": "asked_medium_contact_or_exact_executable_closure",
+          "closure_gate_active": true
+        },
+        "warnings": [
+          "primitive_field_if_any missing; derived local primitive field used",
+          "bound_program missing; derived next_touch used",
+          "release_veto is active",
+          "asked medium has not been touched",
+          "final artifact is not materialized",
+          "probe-like local search is live without a bound skill hypothesis; further pattern mining counts as drift"
+        ]
+      },
+      "note": "state bootstrap"
+    },
+    {
+      "ts": "2026-05-12T02:18:53.757135+00:00",
+      "command": "primitive:set",
+      "event_kind": "mutation",
+      "before": {
+        "current_object": "solver.cpp exact DP implementation",
+        "current_seam": "solver.cpp exact DP implementation",
+        "current_debt": "Need exact readout in solver.cpp exact DP implementation",
+        "next_bite": "solver.cpp exact DP implementation",
+        "asked_medium_surface": "solver.cpp exact DP implementation",
+        "release_veto": true
+      },
+      "after": {
+        "current_object": "solver.cpp exact DP implementation",
+        "current_seam": "solver.cpp exact DP implementation",
+        "current_debt": "Need exact readout in solver.cpp exact DP implementation",
+        "next_bite": "solver.cpp exact DP implementation",
+        "asked_medium_surface": "solver.cpp exact DP implementation",
+        "release_veto": true,
+        "primitive_field_if_any": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "active_primitives": [
+            "readout"
+          ],
+          "why_now": "Asked-medium exact readout is already the live carrier",
+          "selection_basis": "explicit_hint",
+          "evidence_basis": "explicit_hint"
+        }
+      },
+      "report_excerpt": {
+        "primitive_field": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "active_primitives": [
+            "readout"
+          ],
+          "why_now": "Asked-medium exact readout is already the live carrier",
+          "selection_basis": "explicit_hint",
+          "evidence_basis": "explicit_hint"
+        },
+        "skill_field": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "active_skills": [
+            "readout",
+            "final_owner",
+            "grasp_essence",
+            "counter_question",
+            "exact_closure",
+            "supervision",
+            "metacognition",
+            "central_control",
+            "hindbrain_guard",
+            "reward_penalty_shaping"
+          ],
+          "why_now": "Asked-medium exact readout is already the live carrier",
+          "selection_basis": "explicit_hint",
+          "evidence_basis": "explicit_hint",
+          "closure_authority_skill_if_any": "exact_closure"
+        },
+        "skill_competition": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "candidates": [
+            {
+              "skill": "exact_closure",
+              "touch_target": "solver.cpp exact DP implementation",
+              "expected_local_gain": "deny release drift and force exact asked-medium contact",
+              "backed_by": "control"
+            },
+            {
+              "skill": "counter_question",
+              "touch_target": "Write one explicit answer/readout dependency, field set, or certificate surface.",
+              "expected_local_gain": "kill decorative progress with one cheap falsifier",
+              "backed_by": "control"
+            }
+          ],
+          "separating_check": "",
+          "winning_skill_if_any": "exact_closure"
+        },
+        "skill_inhibition": {
+          "owner": "asked_medium",
+          "promoted_skill_if_any": "exact_closure",
+          "demoted_skills": [
+            "grasp_essence"
+          ],
+          "gate_until": "asked_medium_contact_or_exact_executable_closure",
+          "winning_skill_if_any": "exact_closure"
+        },
+        "skill_authority_bridge": {
+          "winning_skill_if_any": "exact_closure",
+          "executable_local_touch_if_any": {
+            "kind": "readout",
+            "target": "solver.cpp exact DP implementation",
+            "operation": "materialize_exact_asked_medium_readout",
+            "success_signal": "asked_medium_is_exact_and_executable",
+            "origin": "derived"
+          },
+          "silence_after_contact": true,
+          "same_carrier_only": true
+        },
+        "probe_discipline": {
+          "active": true,
+          "probe_must_bind": true,
+          "unbound_probe_is_drift": true,
+          "probe_like_primitives": [],
+          "preferred_probe_target": "Write one explicit answer/readout dependency, field set, or certificate surface.",
+          "allowed_probe_kinds": [
+            "check",
+            "witness"
+          ],
+          "candidate_skill_hypotheses": [
+            "final_owner",
+            "grasp_essence"
+          ],
+          "active_skill_hypothesis": "",
+          "hypothesis_binding_strength": "unbound",
+          "reason": "current probe pressure has no live skill hypothesis binding yet",
+          "drift_signal": "pattern_probe_without_skill_binding"
+        },
+        "closure_nucleus": {
+          "object": "solver.cpp exact DP implementation",
+          "debt": "Need exact readout in solver.cpp exact DP implementation",
+          "asked_medium_surface": "solver.cpp exact DP implementation",
+          "revocation_handle": "Brute-force mismatch on small cases",
+          "same_carrier_only": true,
+          "no_route_growth": false,
+          "owner": "same_carrier",
+          "current_structural_bite_if_any": {
+            "kind": "write",
+            "target": "solver.cpp exact DP implementation",
+            "operation": "Write one explicit answer/readout dependency, field set, or certificate surface.",
+            "success_signal": "exact readout landed on solver.cpp exact DP implementation",
+            "origin": "primitive_field"
+          },
+          "current_readout_bite_if_any": {
+            "kind": "readout",
+            "target": "solver.cpp exact DP implementation",
+            "operation": "materialize_exact_asked_medium_readout",
+            "success_signal": "asked_medium_is_exact_and_executable",
+            "origin": "derived"
+          },
+          "separating_check_if_any": "",
+          "winner_if_any": "",
+          "competition_candidates": [],
+          "closure_target": "solver.cpp exact DP implementation",
+          "required_contact": "readout",
+          "blocks_release": true,
+          "supervision_owner": "closure",
+          "supervision_until": "asked_medium_contact_or_exact_executable_closure",
+          "closure_gate_active": true
+        },
+        "warnings": [
+          "bound_program missing; derived next_touch used",
+          "release_veto is active",
+          "asked medium has not been touched",
+          "final artifact is not materialized",
+          "probe-like local search is live without a bound skill hypothesis; further pattern mining counts as drift"
+        ]
+      }
+    },
+    {
+      "ts": "2026-05-12T02:19:05.335708+00:00",
+      "command": "bind-local",
+      "event_kind": "consumption",
+      "before": {
+        "current_object": "solver.cpp exact DP implementation",
+        "current_seam": "solver.cpp exact DP implementation",
+        "current_debt": "Need exact readout in solver.cpp exact DP implementation",
+        "next_bite": "solver.cpp exact DP implementation",
+        "asked_medium_surface": "solver.cpp exact DP implementation",
+        "release_veto": true,
+        "primitive_field_if_any": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "active_primitives": [
+            "readout"
+          ],
+          "why_now": "Asked-medium exact readout is already the live carrier",
+          "selection_basis": "explicit_hint",
+          "evidence_basis": "explicit_hint"
+        }
+      },
+      "after": {
+        "current_object": "solver.cpp exact DP implementation",
+        "current_seam": "solver.cpp exact DP implementation",
+        "current_debt": "Need exact readout in solver.cpp exact DP implementation",
+        "next_bite": "solver.cpp exact DP implementation",
+        "asked_medium_surface": "solver.cpp exact DP implementation",
+        "release_veto": true,
+        "bound_program": {
+          "kind": "readout",
+          "target": "solver.cpp exact DP implementation",
+          "operation": "materialize_exact_asked_medium_readout",
+          "success_signal": "asked_medium_is_exact_and_executable"
+        },
+        "gate_binding_if_any": {
+          "source_focus": "asked_medium",
+          "source_target": "solver.cpp exact DP implementation",
+          "demoted_continuation": "structure_talk_before_asked_medium_contact",
+          "authority_until": "asked_medium_failure",
+          "owner_skill_if_any": "exact_closure"
+        },
+        "primitive_field_if_any": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "active_primitives": [
+            "readout",
+            "definition_as_direct_readout"
+          ],
+          "why_now": "the current controller is locally visible enough to stay thin",
+          "selection_basis": "tie_break",
+          "evidence_basis": "cheap_check",
+          "tie_break_check": "solver.cpp exact DP implementation"
+        }
+      },
+      "report_excerpt": {
+        "primitive_field": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "active_primitives": [
+            "readout",
+            "definition_as_direct_readout"
+          ],
+          "why_now": "the current controller is locally visible enough to stay thin",
+          "selection_basis": "tie_break",
+          "evidence_basis": "cheap_check",
+          "tie_break_check": "solver.cpp exact DP implementation"
+        },
+        "skill_field": {
+          "layer_object": "solver.cpp exact DP implementation",
+          "active_skills": [
+            "exact_closure",
+            "metacognition",
+            "hindbrain_guard"
+          ],
+          "why_now": "the current controller is locally visible enough to stay thin",
+          "selection_basis": "tie_break",
+          "evidence_basis": "cheap_check",
+          "closure_authority_skill_if_any": "exact_closure",
+          "bound_skill_if_any": ""
+        },
+        "skill_inhibition": {
+          "owner": "asked_medium",
+          "promoted_skill_if_any": "exact_closure",
+          "demoted_skills": [
+            "grasp_essence"
+          ],
+          "gate_until": "asked_medium_contact_or_exact_executable_closure",
+          "winning_skill_if_any": "exact_closure"
+        },
+        "skill_authority_bridge": {
+          "winning_skill_if_any": "",
+          "executable_local_touch_if_any": {
+            "kind": "write",
+            "target": "solver.cpp exact DP implementation",
+            "operation": "Write one explicit answer/readout dependency, field set, or certificate surface.",
+            "success_signal": "exact readout landed on solver.cpp exact DP implementation"
+          },
+          "silence_after_contact": true,
+          "same_carrier_only": true,
+          "fallback_skill_hint_if_any": "readout"
+        },
+        "discipline_contract": {
+          "active": true,
+          "forbid_ordinary_regrowth": true,
+          "must_bind_local_bite": false,
+          "must_spend_handoff": false,
+          "surface": "bound_program",
+          "owner": "same_carrier",
+          "current_object": "solver.cpp exact DP implementation",
+          "current_debt": "Need exact readout in solver.cpp exact DP implementation",
+          "authorized_bite": {
+            "kind": "readout",
+            "target": "solver.cpp exact DP implementation",
+            "operation": "materialize_exact_asked_medium_readout",
+            "success_signal": "asked_medium_is_exact_and_executable"
+          },
+          "reason": "one local executable bite is already bound; broad derivation should cool until that same-carrier bite changes, lands, or tears",
+          "tears_on": "asked_medium_contact_or_exact_executable_closure"
+        },
+        "closure_nucleus": {
+          "object": "solver.cpp exact DP implementation",
+          "debt": "Need exact readout in solver.cpp exact DP implementation",
+          "asked_medium_surface": "solver.cpp exact DP implementation",
+          "revocation_handle": "Brute-force mismatch on small cases",
+          "same_carrier_only": true,
+          "no_route_growth": false,
+          "owner": "same_carrier",
+          "current_structural_bite_if_any": {
+            "kind": "write",
+            "target": "solver.cpp exact DP implementation",
+            "operation": "Write one explicit answer/readout dependency, field set, or certificate surface.",
+            "success_signal": "exact readout landed on solver.cpp exact DP implementation",
+            "origin": "primitive_field"
+          },
+          "current_readout_bite_if_any": {
+            "kind": "readout",
+            "target": "solver.cpp exact DP implementation",
+            "operation": "materialize_exact_asked_medium_readout",
+            "success_signal": "asked_medium_is_exact_and_executable",
+            "origin": "explicit"
+          },
+          "separating_check_if_any": "",
+          "winner_if_any": "",
+          "competition_candidates": [],
+          "closure_target": "solver.cpp exact DP implementation",
+          "required_contact": "readout",
+          "blocks_release": true,
+          "supervision_owner": "closure",
+          "supervision_until": "asked_medium_contact_or_exact_executable_closure",
+          "closure_gate_active": true
+        },
+        "warnings": [
+          "release_veto is active",
+          "asked medium has not been touched",
+          "final artifact is not materialized"
+        ]
+      }
+    }
+  ]
+}
