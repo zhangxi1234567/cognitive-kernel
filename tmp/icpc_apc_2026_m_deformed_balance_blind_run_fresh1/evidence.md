@@ -1,0 +1,1 @@
+守恒 把总代价压成 prefix cost + suffix cost 这一条 ledger，边界找路 把起始相位缩成 NEED_OPERAND / NEED_OPERATOR 两个 boundary face，见证 再用 parity 与 b=0 的唯一特例把搜索压成常数个 candidate；随后 状态拆分 把 delta_p、need_p、min_b、两类 prefix regime 和两类 suffix regime 落成 exact readout，并把最小值写进 O(n) 参考实现与证明。

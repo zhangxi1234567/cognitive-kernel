@@ -1,0 +1,9 @@
+Case: gaokao_2026_math_final
+Domain: function / logarithm / parameter classification
+
+Problem:
+已知函数 f_a(x)=x+lnx-ax (x>0)。
+
+1. 讨论零点个数；
+2. 若有两个不同实根 x1<x2，证明 x1x2>e^2；
+3. 求 a 的范围使得对任意 x>0 恒有 f_a(x)<=0，并判断是否存在 a 使得对任意 x>0 恒有 f_a(x)>=0。

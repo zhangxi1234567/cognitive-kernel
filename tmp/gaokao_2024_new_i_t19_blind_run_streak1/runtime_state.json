@@ -1,0 +1,47 @@
+{
+  "current_object": "\u628a\u539f\u578b\u89c1\u8bc1\u5347\u7ea7\u6210\u6574\u5757\u5206\u7ec4\u516c\u5f0f\u4e0e\u8ba1\u6570\u8bfb\u51fa",
+  "current_seam": "\u628a\u539f\u578b\u89c1\u8bc1\u5347\u7ea7\u6210\u6574\u5757\u5206\u7ec4\u516c\u5f0f\u4e0e\u8ba1\u6570\u8bfb\u51fa",
+  "current_debt": "\u628a A \u65cf\u3001B \u65cf\u7684\u901a\u5f0f\u5206\u7ec4\u5199\u5168\uff0c\u5e76\u8bfb\u51fa |A|,|B| \u4e0e P_m>1/8",
+  "next_bite": "\u628a\u539f\u578b\u89c1\u8bc1\u5347\u7ea7\u6210\u6574\u5757\u5206\u7ec4\u516c\u5f0f\u4e0e\u8ba1\u6570\u8bfb\u51fa",
+  "asked_medium_surface": "final.md",
+  "revocation_handle": "runtime_state",
+  "uncertainty_mode": "unknown",
+  "primary_slot": "solve",
+  "bound_program": null,
+  "layer_composition_if_any": null,
+  "gate_binding_if_any": null,
+  "primitive_field_if_any": null,
+  "primitive_competition_if_any": null,
+  "carrier_handoff_if_any": null,
+  "secondary_rival_if_any": null,
+  "landed_next_touch_if_any": null,
+  "primitive_takeover_gate_if_any": null,
+  "materialization_evidence": {
+    "kind": "file",
+    "location": "C:\\Users\\21604\\Desktop\\\u65b0\u5efa\u6587\u4ef6\u5939\\tmp\\gaokao_2024_new_i_t19_blind_run_streak1\\final.md",
+    "skill_serialized": true,
+    "summary": "runtime materialized the exact asked-medium \u8bfb\u51fa from solve-step serialization"
+  },
+  "bootstrap_context": {
+    "mode": "fresh_blind_project_skills_on",
+    "readset_manifest": "BLIND_TEST_READSET_PROJECT_SKILLS_ON.txt",
+    "requires_fresh_state_path": true,
+    "requires_new_runtime_transition": true,
+    "requires_qualified_layer_composition_for_skill_claims": true,
+    "auto_enter_local_action_when_concrete": true,
+    "auto_reselect_after_layer_change": true,
+    "selection_dynamics": "local_competition_with_persistent_bias",
+    "first_runtime_transition_window_seconds": 300,
+    "first_runtime_transition_window_started_at": "2026-05-18T17:33:45.952140+00:00"
+  },
+  "release_veto": false,
+  "unresolved_markers": [],
+  "output_status": {
+    "touched": true,
+    "cosmetic_only": false,
+    "contains_unsupported": false,
+    "contains_placeholder": false,
+    "final_artifact_materialized": true
+  },
+  "memory_residue": []
+}

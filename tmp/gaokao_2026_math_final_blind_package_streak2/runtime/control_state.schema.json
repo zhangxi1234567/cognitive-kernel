@@ -1,0 +1,654 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "wu-boshi-perspective/runtime/control-state.schema.json",
+  "title": "Wu Boshi Runtime Control State",
+  "description": "Persisted runtime control state only. This schema intentionally covers the minimal serialized control face and excludes derived readout surfaces. Readouts such as self_check_agenda, control_signals, closure_nucleus, gap_object, resume_bridge, skill_field, skill_competition, skill_inhibition, control_bridge, skill_authority_bridge, interlayer_discharge_bridge, inhibition_state, and primitive_semantics may be computed from persisted state but must not be written into documents validated by this schema.",
+  "$comment": "If a host wants any derived readout surface, compute or publish it ephemerally after loading persisted state. Do not extend the serialized control-state document with parallel readout objects.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "current_object",
+    "current_debt",
+    "next_bite",
+    "asked_medium_surface",
+    "revocation_handle",
+    "uncertainty_mode",
+    "primary_slot",
+    "bound_program",
+    "layer_composition_if_any",
+    "release_veto",
+    "output_status",
+    "memory_residue"
+  ],
+  "allOf": [
+    {
+      "description": "Explicit persisted-vs-derived boundary. These derived surface names are rejected here even if some host later relaxes or bypasses the main property list.",
+      "not": {
+        "anyOf": [
+          { "required": ["self_check_agenda"] },
+          { "required": ["control_signals"] },
+          { "required": ["closure_nucleus"] },
+          { "required": ["gap_object"] },
+          { "required": ["resume_bridge"] },
+          { "required": ["skill_field"] },
+          { "required": ["skill_competition"] },
+          { "required": ["skill_inhibition"] },
+          { "required": ["control_bridge"] },
+          { "required": ["skill_authority_bridge"] },
+          { "required": ["interlayer_discharge_bridge"] },
+          { "required": ["inhibition_state"] },
+          { "required": ["primitive_semantics"] }
+        ]
+      }
+    }
+  ],
+  "properties": {
+    "current_object": { "type": "string", "minLength": 1 },
+    "current_seam": { "type": "string", "minLength": 0 },
+    "current_debt": { "type": "string", "minLength": 1 },
+    "next_bite": { "type": "string", "minLength": 1 },
+    "asked_medium_surface": { "type": "string", "minLength": 1 },
+    "revocation_handle": { "type": "string", "minLength": 1 },
+    "uncertainty_mode": {
+      "type": "string",
+      "enum": ["high", "low", "mixed", "unknown"]
+    },
+    "primary_slot": { "type": "string", "minLength": 1 },
+    "bound_program": {
+      "description": "Persisted next executable local bite. This is the durable stateful action slot, not a serialized control_bridge readout.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["kind", "target", "operation"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["write", "check", "读出", "见证"]
+        },
+        "target": { "type": "string", "minLength": 1 },
+        "operation": { "type": "string", "minLength": 1 },
+        "success_signal": { "type": "string", "minLength": 1 }
+      }
+    },
+    "layer_composition_if_any": {
+      "description": "Persisted record of a current-layer takeover when one composition step has already purchased local authority. Nearby skill_field or skill_competition readouts are supporting derived surfaces, not substitutes for this object.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["surface", "active_skill_combo_if_any"],
+      "properties": {
+        "surface": {
+          "description": "Provenance label for the persisted composition record. For example, a value of control_bridge means the composition was exposed through that readout surface; it does not authorize a top-level persisted control_bridge object.",
+          "type": "string",
+          "enum": [
+            "bound_program",
+            "carrier_handoff",
+            "takeover_recomposition",
+            "control_bridge",
+            "unknown"
+          ]
+        },
+        "active_skill_combo_if_any": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 6,
+          "items": {
+            "type": "string",
+            "enum": [
+              "反证",
+              "第一裂缝",
+              "重编码",
+              "对称",
+              "极限边界",
+              "守恒",
+              "投影",
+              "赋值",
+              "反向",
+              "图像",
+              "见证",
+              "状态拆分",
+              "相容",
+              "读出",
+              "向量差读出",
+              "公共值压缩",
+              "容器到截面",
+              "面积到线读出",
+              "匹配替代概率",
+              "格点选排",
+              "不算而比",
+              "点积投影",
+              "规范归一化",
+              "投影读出",
+              "主导机制读出",
+              "局部缝控制整体",
+              "定义即直接读出",
+              "对称消元",
+              "边界找路",
+              "先调模型后推导",
+              "特殊值探针",
+              "函数原型匹配",
+              "抓本质",
+              "最终控制者",
+              "外壳怀疑",
+              "更薄载体重选",
+              "精确封口",
+              "反问",
+              "监督",
+              "元认知",
+              "中枢控制",
+              "后脑守卫",
+              "奖惩塑形"
+            ]
+          }
+        },
+        "forbid_ordinary_regrowth": { "type": "boolean" },
+        "must_bind_local_bite": { "type": "boolean" },
+        "must_spend_handoff": { "type": "boolean" },
+        "leading_skill_if_any": {
+          "type": "string",
+          "enum": [
+            "反证",
+            "第一裂缝",
+            "重编码",
+            "对称",
+            "极限边界",
+            "守恒",
+            "投影",
+            "赋值",
+            "反向",
+            "图像",
+            "见证",
+            "状态拆分",
+            "相容",
+            "读出",
+            "向量差读出",
+            "公共值压缩",
+            "容器到截面",
+            "面积到线读出",
+            "匹配替代概率",
+            "格点选排",
+            "不算而比",
+            "点积投影",
+            "规范归一化",
+            "投影读出",
+            "主导机制读出",
+            "局部缝控制整体",
+            "定义即直接读出",
+            "对称消元",
+            "边界找路",
+            "先调模型后推导",
+            "特殊值探针",
+            "函数原型匹配",
+            "抓本质",
+            "最终控制者",
+            "外壳怀疑",
+            "更薄载体重选",
+            "精确封口",
+            "反问",
+            "监督",
+            "元认知",
+            "中枢控制",
+            "后脑守卫",
+            "奖惩塑形"
+          ]
+        },
+        "reason": { "type": "string", "minLength": 1 },
+        "authorized_bite": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "target", "operation"],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "enum": ["write", "check", "读出", "见证"]
+            },
+            "target": { "type": "string", "minLength": 1 },
+            "operation": { "type": "string", "minLength": 1 },
+            "success_signal": { "type": "string", "minLength": 1 },
+            "owner_skill_if_any": {
+              "type": "string",
+              "enum": [
+                "反证",
+                "第一裂缝",
+                "重编码",
+                "对称",
+                "极限边界",
+                "守恒",
+                "投影",
+                "赋值",
+                "反向",
+                "图像",
+                "见证",
+                "状态拆分",
+                "相容",
+                "读出",
+                "向量差读出",
+                "公共值压缩",
+                "容器到截面",
+                "面积到线读出",
+                "匹配替代概率",
+                "格点选排",
+                "不算而比",
+                "点积投影",
+                "规范归一化",
+                "投影读出",
+                "主导机制读出",
+                "局部缝控制整体",
+                "定义即直接读出",
+                "对称消元",
+                "边界找路",
+                "先调模型后推导",
+                "特殊值探针",
+                "函数原型匹配",
+                "抓本质",
+                "最终控制者",
+                "外壳怀疑",
+                "更薄载体重选",
+                "精确封口",
+                "反问",
+                "监督",
+                "元认知",
+                "中枢控制",
+                "后脑守卫",
+                "奖惩塑形"
+              ]
+            },
+            "owner_skill_combo_if_any": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 6,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "反证",
+                  "第一裂缝",
+                  "重编码",
+                  "对称",
+                  "极限边界",
+                  "守恒",
+                  "投影",
+                  "赋值",
+                  "反向",
+                  "图像",
+                  "见证",
+                  "状态拆分",
+                  "相容",
+                  "读出",
+                  "向量差读出",
+                  "公共值压缩",
+                  "容器到截面",
+                  "面积到线读出",
+                  "匹配替代概率",
+                  "格点选排",
+                  "不算而比",
+                  "点积投影",
+                  "规范归一化",
+                  "投影读出",
+                  "主导机制读出",
+                  "局部缝控制整体",
+                  "定义即直接读出",
+                  "对称消元",
+                  "边界找路",
+                  "先调模型后推导",
+                  "特殊值探针",
+                  "函数原型匹配",
+                  "抓本质",
+                  "最终控制者",
+                  "外壳怀疑",
+                  "更薄载体重选",
+                  "精确封口",
+                  "反问",
+                  "监督",
+                  "元认知",
+                  "中枢控制",
+                  "后脑守卫",
+                  "奖惩塑形"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "gate_binding_if_any": {
+      "description": "Persisted monitor-to-action gate purchase when one already-local checking pressure temporarily buys authority for one executable bite. This is the durable state counterpart, not a serialized inhibition_state readout.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": [
+        "source_focus",
+        "source_target",
+        "demoted_continuation",
+        "authority_until"
+      ],
+      "properties": {
+        "source_focus": {
+          "type": "string",
+          "enum": ["seam", "rival", "carrier", "asked_medium"]
+        },
+        "source_target": { "type": "string", "minLength": 1 },
+        "demoted_continuation": { "type": "string", "minLength": 1 },
+        "authority_until": {
+          "type": "string",
+          "enum": [
+            "same_carrier_change",
+            "hostile_见证",
+            "exact_check",
+            "asked_medium_failure"
+          ]
+        }
+      }
+    },
+    "primitive_field_if_any": {
+      "description": "Persisted current-layer primitive selection state when the live carrier is already thin enough to name it directly. Derived primitive-control readouts should be projected from this object, not stored beside it.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["layer_object", "active_primitives", "why_now"],
+      "properties": {
+        "layer_object": { "type": "string", "minLength": 1 },
+        "active_primitives": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "enum": [
+              "反证",
+              "第一裂缝",
+              "重编码",
+              "对称",
+              "极限边界",
+              "守恒",
+              "投影",
+              "赋值",
+              "反向",
+              "图像",
+              "见证",
+              "状态拆分",
+              "相容",
+              "读出",
+              "向量差读出",
+              "公共值压缩",
+              "容器到截面",
+              "面积到线读出",
+              "匹配替代概率",
+              "格点选排",
+              "不算而比",
+              "点积投影",
+              "规范归一化",
+              "投影读出",
+              "主导机制读出",
+              "局部缝控制整体",
+              "定义即直接读出",
+              "对称消元",
+              "边界找路",
+              "先调模型后推导",
+              "特殊值探针",
+              "函数原型匹配"
+            ]
+          }
+        },
+        "tie_break_check": { "type": "string", "minLength": 1 },
+        "selection_basis": {
+          "type": "string",
+          "enum": ["explicit_hint", "tie_break", "agenda_hint", "text_fallback"]
+        },
+        "evidence_basis": {
+          "type": "string",
+          "enum": ["explicit_hint", "state_见证", "cheap_check", "lexical_hint", "mixed"]
+        },
+        "why_now": { "type": "string", "minLength": 1 }
+      }
+    },
+    "primitive_competition_if_any": {
+      "description": "Persisted tiny same-layer primitive competition when it is explicit enough to name one or two candidates and a separating check. Do not persist a parallel readout tree for the same competition.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["layer_object", "candidates"],
+      "properties": {
+        "layer_object": { "type": "string", "minLength": 1 },
+        "candidates": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["primitive", "touch_target", "expected_local_gain"],
+            "properties": {
+              "primitive": {
+                "type": "string",
+                "enum": [
+                  "反证",
+                  "第一裂缝",
+                  "重编码",
+                  "对称",
+                  "极限边界",
+                  "守恒",
+                  "投影",
+                  "赋值",
+                  "反向",
+                  "图像",
+                  "见证",
+                  "状态拆分",
+                  "相容",
+                  "读出",
+                  "向量差读出",
+                  "公共值压缩",
+                  "容器到截面",
+                  "面积到线读出",
+                  "匹配替代概率",
+                  "格点选排",
+                  "不算而比",
+                  "点积投影",
+                  "规范归一化",
+                  "投影读出",
+                  "主导机制读出",
+                  "局部缝控制整体",
+                  "定义即直接读出",
+                  "对称消元",
+                  "边界找路",
+                  "先调模型后推导",
+                  "特殊值探针",
+                  "函数原型匹配"
+                ]
+              },
+              "touch_target": { "type": "string", "minLength": 1 },
+              "expected_local_gain": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "separating_check": { "type": "string", "minLength": 1 },
+        "winner_if_any": {
+          "type": "string",
+          "enum": [
+            "反证",
+            "第一裂缝",
+            "重编码",
+            "对称",
+            "极限边界",
+            "守恒",
+            "投影",
+            "赋值",
+            "反向",
+            "图像",
+            "见证",
+            "状态拆分",
+            "相容",
+            "读出",
+            "向量差读出",
+            "公共值压缩",
+            "容器到截面",
+            "面积到线读出",
+            "匹配替代概率",
+            "格点选排",
+            "不算而比",
+            "点积投影",
+            "规范归一化",
+            "投影读出",
+            "主导机制读出",
+            "局部缝控制整体",
+            "定义即直接读出",
+            "对称消元",
+            "边界找路",
+            "先调模型后推导",
+            "特殊值探针",
+            "函数原型匹配"
+          ]
+        }
+      }
+    },
+    "carrier_handoff_if_any": {
+      "description": "Persisted thinner-carrier handoff when a local reselection already owns the control face. Derived gap_object or resume_bridge projections may summarize it, but they are not themselves persisted state.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["trigger", "from_slot", "to_object", "winning_pressure", "why_local"],
+      "properties": {
+        "trigger": {
+          "type": "string",
+          "enum": [
+            "same_carrier_change",
+            "hostile_见证",
+            "exact_check",
+            "asked_medium_failure",
+            "residue_inherited"
+          ]
+        },
+        "from_slot": { "type": "string", "minLength": 1 },
+        "to_object": { "type": "string", "minLength": 1 },
+        "winning_pressure": { "type": "string", "minLength": 1 },
+        "cooled_pressure_if_any": { "type": "string", "minLength": 1 },
+        "why_local": { "type": "string", "minLength": 1 },
+        "warm_field": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [],
+          "properties": {
+            "active_pressures": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 2,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "primitive_hints": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 2,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "反证",
+                  "第一裂缝",
+                  "重编码",
+                  "对称",
+                  "极限边界",
+                  "守恒",
+                  "投影",
+                  "赋值",
+                  "反向",
+                  "图像",
+                  "见证",
+                  "状态拆分",
+                  "相容",
+                  "读出",
+                  "向量差读出",
+                  "公共值压缩",
+                  "容器到截面",
+                  "面积到线读出",
+                  "匹配替代概率",
+                  "格点选排",
+                  "不算而比",
+                  "点积投影",
+                  "规范归一化",
+                  "投影读出",
+                  "主导机制读出",
+                  "局部缝控制整体",
+                  "定义即直接读出",
+                  "对称消元",
+                  "边界找路",
+                  "先调模型后推导",
+                  "特殊值探针",
+                  "函数原型匹配"
+                ]
+              }
+            },
+            "cheap_check": { "type": "string", "minLength": 1 },
+            "evidence_basis": {
+              "type": "string",
+              "enum": ["explicit_hint", "state_见证", "cheap_check", "lexical_hint", "mixed"]
+            }
+          }
+        }
+      }
+    },
+    "materialization_evidence": {
+      "description": "Persisted closure evidence once asked-medium sealing is being treated as real. It replaces live control pressure; it is not a general-purpose artifact for carrying auxiliary readout surfaces.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["kind", "location", "summary"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["file", "command", "check", "artifact", "inline_text"]
+        },
+        "location": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 },
+        "worked_step": { "type": "string", "minLength": 1 },
+        "skill_serialized": { "type": "boolean" }
+      }
+    },
+    "secondary_rival_if_any": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["object", "debt", "bite", "separating_advantage"],
+      "properties": {
+        "object": { "type": "string", "minLength": 1 },
+        "debt": { "type": "string", "minLength": 1 },
+        "bite": { "type": "string", "minLength": 1 },
+        "separating_advantage": { "type": "string", "minLength": 1 }
+      }
+    },
+    "release_veto": { "type": "boolean" },
+    "unresolved_markers": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "output_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "touched",
+        "cosmetic_only",
+        "contains_unsupported",
+        "contains_placeholder",
+        "final_artifact_materialized"
+      ],
+      "properties": {
+        "touched": { "type": "boolean" },
+        "cosmetic_only": { "type": "boolean" },
+        "contains_unsupported": { "type": "boolean" },
+        "contains_placeholder": { "type": "boolean" },
+        "final_artifact_materialized": { "type": "boolean" }
+      }
+    },
+    "memory_residue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "description", "replayable"],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "competition_texture",
+              "distrust_bias",
+              "见证_readiness",
+              "读出_sensitivity",
+              "boundary_residue"
+            ]
+          },
+          "description": { "type": "string", "minLength": 1 },
+          "replayable": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

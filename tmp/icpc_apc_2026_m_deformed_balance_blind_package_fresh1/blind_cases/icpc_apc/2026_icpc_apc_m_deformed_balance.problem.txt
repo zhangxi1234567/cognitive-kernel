@@ -1,0 +1,84 @@
+2026 ICPC Asia Pacific Championship
+Problem M - Deformed Balance
+
+Primary source:
+- Official problem set PDF: https://apac.icpc.global/assets/championship/2026/2026-problemset.pdf
+- Mirror: https://codeforces.com/problemset/problem/2206/M
+
+Problem summary
+
+You are given a parenthesis string S of length n.
+For each test case, choose strings X and Y so that X + S + Y has a deformed balance.
+Your goal is to minimize |X| + |Y|.
+
+Definitions
+
+In this statement, concatenation is written with +.
+
+1. A string over '(' and ')' is balanced iff it is one of:
+- the empty string
+- the concatenation of two non-empty balanced strings
+- "(" + T + ")" where T is balanced
+
+Examples:
+- balanced: "()", "(())()"
+- not balanced: "()(", "((()"
+
+2. A string is deformed iff it is one of:
+- ")"
+- T + ")" + U where T and U are deformed
+- "(" + T + "(" where T is deformed
+
+Examples:
+- deformed: "()(", "))()("
+- not deformed: "()", "(()"
+
+3. A string T has a deformed balance iff:
+- T is deformed, and
+- T + ")" is balanced
+
+Example:
+- "()(" has a deformed balance
+
+Task
+
+For each given string S, determine the minimum possible value of |X| + |Y| such that
+X + S + Y has a deformed balance.
+
+It is guaranteed under the input constraints that at least one such pair (X, Y) exists.
+
+Input
+
+- The first line contains an integer t (1 <= t <= 10000), the number of test cases.
+- For each test case:
+- One line contains an integer n (1 <= n <= 10^6).
+- One line contains a string S of length n consisting only of '(' and ')'.
+
+The sum of n over all test cases does not exceed 10^6.
+
+Output
+
+For each test case, output one integer:
+the minimum possible value of |X| + |Y|.
+
+Sample input
+
+3
+3
+()(
+1
+)
+7
+(())())
+
+Sample output
+
+0
+2
+4
+
+Sample notes
+
+- For "()(", choose X = "" and Y = "". The string already has a deformed balance.
+- For ")", one optimal choice is X = "(" and Y = "(", giving "()(".
+- For "(())())", one optimal choice is X = "((()" and Y = "".

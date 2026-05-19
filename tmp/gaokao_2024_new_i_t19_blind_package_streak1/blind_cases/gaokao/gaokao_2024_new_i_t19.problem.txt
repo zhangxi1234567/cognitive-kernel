@@ -1,0 +1,10 @@
+Case: gaokao_2024_new_i_t19
+
+Domain: sequence / arithmetic progression / combinatorial construction / probability
+
+Problem:
+设 m 为正整数，数列 a_1,a_2,...,a_{4m+2} 为公差不为 0 的等差数列。若从中删去两项 a_i,a_j (i<j) 后，剩下的 4m 项可被分成 m 组，且每组 4 个数都能构成等差数列，则称数列 a_1,a_2,...,a_{4m+2} 是 (i,j) 的一可分数列。
+
+1. 写出所有的 (i,j)，1<=i<j<=6，使数列 a_1,a_2,...,a_6 是 (i,j) 的一可分数列。
+2. 当 m>=3 时，证明：数列 a_1,a_2,...,a_{4m+2} 是 (2,13) 的一可分数列。
+3. 从 1,2,...,4m+2 中一次随机取两个数 i,j (i<j)，记数列 a_1,a_2,...,a_{4m+2} 是 (i,j) 的一可分数列的概率为 P_m，证明：P_m>1/8。
