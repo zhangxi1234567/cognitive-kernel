@@ -6,6 +6,45 @@ It exists only to keep the live control variables small enough
 that different runtime surfaces keep touching the same state
 rather than drifting into parallel vocabularies.
 
+## Persisted Boundary
+
+`runtime/control_state.schema.json` is the persisted-state contract.
+
+This means the serialized control-state document should contain only the
+explicit state fields that the schema names.
+
+If a surface below is described as a thin derived readout, or as something
+that "may also surface from the same state", that does not make it persisted
+state automatically.
+
+In particular, these are derived readout surfaces and should not be written
+back into the persisted control-state document:
+
+- `self_check_agenda`
+- `control_signals`
+- `closure_nucleus`
+- `gap_object`
+- `resume_bridge`
+- `skill_field`
+- `skill_competition`
+- `skill_inhibition`
+- `control_bridge`
+- `skill_authority_bridge`
+- `interlayer_discharge_bridge`
+- `inhibition_state`
+- `primitive_semantics`
+
+If one of those surfaces is useful at runtime, compute it from persisted
+state after load or publish it as an ephemeral side readout.
+Do not backfill it into the persisted state document just because it became
+locally useful or human-readable.
+
+One narrow clarification matters here:
+`layer_composition_if_any.surface = "control_bridge"` is only a provenance
+label on a persisted composition object.
+It does not mean a top-level `control_bridge` object is itself part of
+persisted state.
+
 ## Minimal Live State
 
 The live run should usually be readable through these fields:
@@ -149,6 +188,13 @@ why the asked-medium closure is being treated as real:
 - one evidence `kind`
 - one evidence `location`
 - and one short evidence `summary`
+
+During live execution before final asked-medium sealing,
+that same object may temporarily carry:
+
+- `kind: inline_text` when the current layer only landed as an inline worked step
+- one `worked_step` string for the owned local touch
+- and later one `skill_serialized` boolean once the asked-medium artifact has been sealed
 
 Once `release_veto` is down, active control artifacts should cool out:
 
@@ -352,6 +398,38 @@ That means:
 
 This plurality is still local, not free solve-shelf breadth.
 It must stay tied to one burden on one current layer.
+That plurality is also not enough to promote a solve step into a genuine
+skill-composition step by itself.
+
+In particular:
+
+- `skill_field.active_skills` is background/current-layer capability evidence
+- `skill_authority_bridge.supporting_skills_if_any` is support evidence
+- `primitive_field.active_primitives` is primitive-layer evidence
+
+None of those fields alone should be allowed to masquerade as one explicit
+`layer_composition`.
+If a trace wants to claim that one skill combination truly took over a step,
+that takeover should surface as one explicit current-layer composition object
+with its own owned bite, layer object, and local reason,
+rather than being reconstructed afterward from nearby plural fields.
+
+That explicit object is not only a report-time decoration.
+
+When one current-layer combination has already purchased local authority,
+`layer_composition_if_any` may act as the thin solve-time takeover object too:
+
+- one current layer
+- one owned bite
+- one local reason
+- one next exposed object or gap
+- and one record of why the layer changed
+
+Without that explicit local takeover object,
+the runtime may still carry nearby skill or primitive pressure,
+but it should not pretend that a genuine layerwise composition step has already happened.
+This keeps solve-time ownership and trace-time evidence on the same thin object
+instead of letting one exist only after the fact.
 
 One thin derived `resume_bridge` may also surface from the same state when
 the run is locally stuck and needs one tiny rebind of ask + object + debt

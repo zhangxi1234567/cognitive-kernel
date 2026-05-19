@@ -1,17 +1,19 @@
 {
-  "symmetry": {
+  "对称": {
     "family_type": "generic",
     "mechanism": "Delete fake directional freedom by testing whether interchange leaves the live law unchanged.",
-    "controller_question": "What asymmetry is real, and what asymmetry is only coordinate costume?",
+    "controller_question": "What a对称 is real, and what a对称 is only coordinate costume?",
     "wake_when": [
       "Two sides, roles, or branches look comparable",
       "The target punishes imbalance or drift",
       "A swap test could kill fake distinctions cheaply"
     ],
     "cheapest_honest_touch": "Try one lawful swap or balancing normalization and see what burden survives.",
-    "anti_pattern": "Do not call something symmetric just because it looks visually balanced."
+    "anti_pattern": "Do not call something symmetric just because it looks visually balanced.",
+    "coactivate_with": ["图像", "极限边界", "见证"],
+    "claim_requires_partner": true
   },
-  "limit_boundary": {
+  "极限边界": {
     "family_type": "generic",
     "mechanism": "Squeeze slack out of the system until the hidden rule-change seam becomes visible.",
     "controller_question": "Which boundary, degenerate case, or first crack exposes the controlling law earliest?",
@@ -21,9 +23,10 @@
       "Edge behavior should preserve the same controller more honestly"
     ],
     "cheapest_honest_touch": "Push one variable to zero, coincidence, tangency, or saturation and inspect what remains rigid.",
-    "anti_pattern": "Do not force a boundary that changes the problem rather than revealing it."
+    "anti_pattern": "Do not force a boundary that changes the problem rather than revealing it.",
+    "coactivate_with": ["图像", "对称", "赋值", "见证"]
   },
-  "conservation": {
+  "守恒": {
     "family_type": "generic",
     "mechanism": "Rewrite visible motion or clutter as one conserved ledger, net flow, or invariant aggregate.",
     "controller_question": "What total, balance, or invariant still owns truth while the local story moves around?",
@@ -33,21 +36,23 @@
       "Validation depends on what can lawfully survive after transformation"
     ],
     "cheapest_honest_touch": "Name one total account and check whether every local change pays into it consistently.",
-    "anti_pattern": "Do not call a vibe 'conservation' unless you can say what is actually conserved."
+    "anti_pattern": "Do not call a vibe '守恒' unless you can say what is actually conserved."
   },
-  "projection": {
+  "投影": {
     "family_type": "generic",
     "mechanism": "Read a thick object through a thinner lawful shadow that still preserves the hinge.",
     "controller_question": "What smaller carrier, section, or shadow still determines the target exactly?",
     "wake_when": [
       "The object has more dimensions than the answer seems to need",
-      "Only one readout, slice, or direction seems load-bearing",
+      "Only one 读出, slice, or direction seems load-bearing",
       "A global object could be replaced by an interface quantity"
     ],
     "cheapest_honest_touch": "Project onto one axis, section, or interface value and test whether exact closure survives there.",
-    "anti_pattern": "Do not project away a coordinate that still owns legality or reconstruction."
+    "anti_pattern": "Do not project away a coordinate that still owns legality or reconstruction.",
+    "coactivate_with": ["守恒", "状态拆分", "读出", "图像", "赋值"],
+    "claim_requires_partner": true
   },
-  "assignment": {
+  "赋值": {
     "family_type": "generic",
     "mechanism": "Probe a route with one controlled value choice that pressures the live mechanism cheaply.",
     "controller_question": "Which representative value or anchor exposes the route fastest without changing the law?",
@@ -57,9 +62,11 @@
       "A parameter still hides the center of the problem"
     ],
     "cheapest_honest_touch": "Plug one anchor value, coincidence, or named representative and see what law becomes rigid.",
-    "anti_pattern": "Do not treat random plugging as assignment; the chosen value must be mechanism-revealing."
+    "anti_pattern": "Do not treat random plugging as 赋值; the chosen value must be mechanism-revealing.",
+    "coactivate_with": ["图像", "投影", "公共值压缩", "极限边界"],
+    "claim_requires_partner": true
   },
-  "reverse": {
+  "反向": {
     "family_type": "generic",
     "mechanism": "Flip direction when the no-return law or legality owner is clearer from the finished side.",
     "controller_question": "Does the controller become thinner if the process is read backward rather than forward?",
@@ -69,9 +76,9 @@
       "Construction is thicker than legality"
     ],
     "cheapest_honest_touch": "Rewrite one step from output back to source and inspect what freedom dies immediately.",
-    "anti_pattern": "Do not reverse just to look clever; reverse only when it preserves the same controller more honestly."
+    "anti_pattern": "Do not 反向 just to look clever; 反向 only when it preserves the same controller more honestly."
   },
-  "picture": {
+  "图像": {
     "family_type": "generic",
     "mechanism": "Externalize a relation into a graph, diagram, corridor, or shape so illegal coexistence becomes visible.",
     "controller_question": "Is the burden really spatial, relational, or flow-like rather than verbal?",
@@ -81,60 +88,66 @@
       "A graph or shape could kill fake possibilities early"
     ],
     "cheapest_honest_touch": "Draw one minimal object whose forbidden adjacencies or crossings are easier to see than to narrate.",
-    "anti_pattern": "Do not promote a picture to truth unless it cashes back into the exact target."
+    "anti_pattern": "Do not promote a 图像 to truth unless it cashes back into the exact target.",
+    "coactivate_with": ["赋值", "极限边界", "投影", "读出", "对称"],
+    "claim_requires_partner": true
   },
-  "witness": {
+  "见证": {
     "family_type": "generic",
     "mechanism": "Use one hostile or separating case to kill fake lines early.",
-    "controller_question": "What is the cheapest concrete witness that splits the live candidates?",
+    "controller_question": "What is the cheapest concrete 见证 that splits the live candidates?",
     "wake_when": [
       "Several routes still look plausible",
       "Confidence is being carried by atmosphere rather than evidence",
       "One seam can be touched directly"
     ],
     "cheapest_honest_touch": "Construct one case, check, or counter-pressure that one route survives and another fails.",
-    "anti_pattern": "Do not keep broad explanation alive when one local witness could already decide."
+    "anti_pattern": "Do not keep broad explanation alive when one local 见证 could already decide.",
+    "coactivate_with": ["极限边界", "对称", "状态拆分"]
   },
-  "state_split": {
+  "状态拆分": {
     "family_type": "generic",
-    "mechanism": "Compress a noisy process into the smallest exact state, quotient, or compatibility residue.",
+    "mechanism": "Compress a noisy process into the smallest exact state, quotient, or 相容 residue.",
     "controller_question": "What residue still decides legality, mergeability, or reconstruction after thinning?",
     "wake_when": [
       "A history-shaped object still owns the burden",
       "A local checker wants to become a global state object",
       "The run still says 'then do DP' without exact state shape"
     ],
-    "cheapest_honest_touch": "Write the smallest state coordinates that still decide the next legality or readout step.",
-    "anti_pattern": "Do not compress for style; keep every coordinate that still owns truth."
+    "cheapest_honest_touch": "Write the smallest state coordinates that still decide the next legality or 读出 step.",
+    "anti_pattern": "Do not compress for style; keep every coordinate that still owns truth.",
+    "coactivate_with": ["投影", "见证", "读出"]
   },
-  "compatibility": {
+  "相容": {
     "family_type": "generic",
     "mechanism": "Turn many locally legal pieces into one exact coexistence or merge object.",
     "controller_question": "What hidden supply, overlap, or residue decides whether local choices can coexist globally?",
     "wake_when": [
-      "Many local witnesses look legal at once",
+      "Many local 见证es look legal at once",
       "The burden is web-shaped rather than corridor-shaped",
       "The last missing object is a merge or coexistence rule"
     ],
-    "cheapest_honest_touch": "Write one compatibility carrier or merge law that can reject impossible local combinations.",
+    "cheapest_honest_touch": "Write one 相容 carrier or merge law that can reject impossible local combinations.",
     "anti_pattern": "Do not confuse local legality with joint realizability."
   },
-  "readout": {
+  "读出": {
     "family_type": "generic",
-    "mechanism": "Force the current carrier to cash into the exact asked-medium readout rather than a nearby elegant surrogate.",
+    "mechanism": "Force the current carrier to cash into the exact asked-medium 读出 rather than a nearby elegant surrogate.",
     "controller_question": "What exact answer-side object, field, or certificate is still missing?",
     "wake_when": [
       "The run sounds right but the final interface is still unnamed",
       "A beautiful middle object is replacing exact closure",
       "The asked medium is still untouched or cosmetic only"
     ],
-    "cheapest_honest_touch": "Write one explicit answer/readout dependency, field set, or certificate surface.",
-    "anti_pattern": "Do not stop at 'then combine' or 'then query'."
+    "cheapest_honest_touch": "Write one explicit answer/读出 dependency, field set, or certificate surface.",
+    "anti_pattern": "Do not stop at 'then combine' or 'then query'.",
+    "coactivate_with": ["投影", "状态拆分", "极限边界"],
+    "claim_requires_partner": true
   },
-  "vector_difference_readout": {
+  "向量差读出": {
     "family_type": "direct",
     "mechanism": "Read the target through one difference vector or displacement ledger rather than a full object family.",
-    "controller_question": "Is the answer owned by one difference or displacement readout rather than by the full ambient object?",
+    "controller_question": "Is the answer owned by one difference or displacement 读出 rather than by the full ambient object?",
     "wake_when": [
       "Relative movement matters more than absolute placement",
       "A pairwise gap seems more stable than the whole story"
@@ -142,7 +155,7 @@
     "cheapest_honest_touch": "Write the target directly in terms of one displacement or difference vector.",
     "anti_pattern": "Do not keep full coordinate baggage if only relative differences matter."
   },
-  "common_value_compression": {
+  "公共值压缩": {
     "family_type": "direct",
     "mechanism": "Collapse many apparent parameters into one latent shared controller.",
     "controller_question": "What single common value or latent quantity can replace many decorative local values?",
@@ -153,7 +166,7 @@
     "cheapest_honest_touch": "Name one shared latent value and test whether the rest becomes bookkeeping.",
     "anti_pattern": "Do not rename many distinct owners as one value if they still carry different constraints."
   },
-  "container_to_cross_section": {
+  "容器到截面": {
     "family_type": "direct",
     "mechanism": "Replace a container story with the decisive section that actually controls it.",
     "controller_question": "Which cross-section or slice still carries the whole burden?",
@@ -164,10 +177,10 @@
     "cheapest_honest_touch": "Cut one section and test whether the controller survives there exactly.",
     "anti_pattern": "Do not keep the whole container if only one section owns the truth."
   },
-  "area_to_line_readout": {
+  "面积到线读出": {
     "family_type": "direct",
     "mechanism": "Read an area-like quantity through one line, gap, or support measure.",
-    "controller_question": "Is the spread really controlled by one line-level readout?",
+    "controller_question": "Is the spread really controlled by one line-level 读出?",
     "wake_when": [
       "A region's measure depends mostly on one gap or height",
       "The object looks two-dimensional but the burden feels one-dimensional"
@@ -175,7 +188,7 @@
     "cheapest_honest_touch": "Rewrite the area or spread through one line-controlled quantity.",
     "anti_pattern": "Do not keep a full surface model when one gap or support already closes it."
   },
-  "matching_instead_of_probability": {
+  "匹配替代概率": {
     "family_type": "direct",
     "mechanism": "Replace fuzzy probabilistic narration with an exact pairing or matching object.",
     "controller_question": "Is this really a counting/matching problem disguised as probability talk?",
@@ -186,7 +199,7 @@
     "cheapest_honest_touch": "Write one exact pairing or matching surrogate and compare what it preserves.",
     "anti_pattern": "Do not stay in expectation/probability language if exact combinatorics is thinner."
   },
-  "grid_selection_permutation": {
+  "格点选排": {
     "family_type": "direct",
     "mechanism": "Collapse a grid or arrangement burden into one selection/permutation invariant.",
     "controller_question": "Is the real controller one order/selection law rather than the whole grid?",
@@ -197,7 +210,7 @@
     "cheapest_honest_touch": "Write the burden as one order-selection object and test whether geometry drops out.",
     "anti_pattern": "Do not keep full grid detail if the legal structure is just ordering."
   },
-  "compare_without_calculating": {
+  "不算而比": {
     "family_type": "direct",
     "mechanism": "Separate routes by order, sign, or threshold without paying full computation cost.",
     "controller_question": "Can one comparison decide the issue before full evaluation?",
@@ -208,18 +221,18 @@
     "cheapest_honest_touch": "Ask one inequality, sign, or threshold-side question that the true route must answer.",
     "anti_pattern": "Do not compute a full expression if one order comparison already decides the route."
   },
-  "dot_product_projection": {
+  "点积投影": {
     "family_type": "direct",
-    "mechanism": "Use projection along one direction to turn geometry into scalar control.",
-    "controller_question": "Which directional readout makes the object linear enough to read honestly?",
+    "mechanism": "Use 投影 along one direction to turn geometry into scalar control.",
+    "controller_question": "Which directional 读出 makes the object linear enough to read honestly?",
     "wake_when": [
       "Direction matters more than full coordinates",
-      "A projection can expose the controlling range"
+      "A 投影 can expose the controlling range"
     ],
     "cheapest_honest_touch": "Project onto the controlling direction and inspect the scalar residue.",
-    "anti_pattern": "Do not keep rotational clutter if one projection already owns the answer."
+    "anti_pattern": "Do not keep rotational clutter if one 投影 already owns the answer."
   },
-  "canonical_normalization": {
+  "规范归一化": {
     "family_type": "direct",
     "mechanism": "Rewrite to a mother form whose laws are easier to inherit directly.",
     "controller_question": "What lawful normalization kills decorative variation without losing control?",
@@ -230,18 +243,18 @@
     "cheapest_honest_touch": "Normalize one representative and check whether the burden becomes family-level rather than instance-level.",
     "anti_pattern": "Do not normalize away a coordinate that still owns legality."
   },
-  "projection_readout": {
+  "投影读出": {
     "family_type": "direct",
-    "mechanism": "Use a projected quantity as the final readout rather than merely as an intermediate view.",
+    "mechanism": "Use a projected quantity as the final 读出 rather than merely as an intermediate view.",
     "controller_question": "Can the target be answered directly on the projected carrier?",
     "wake_when": [
-      "A projection already preserves the asked interface",
-      "The current carrier is nearly speakable after projection"
+      "A 投影 already preserves the asked interface",
+      "The current carrier is nearly speakable after 投影"
     ],
-    "cheapest_honest_touch": "Write the exact readout directly on the projected carrier.",
+    "cheapest_honest_touch": "Write the exact 读出 directly on the projected carrier.",
     "anti_pattern": "Do not project and then rebuild the full object by habit."
   },
-  "dominant_mechanism_readout": {
+  "主导机制读出": {
     "family_type": "direct",
     "mechanism": "Read the outcome through the mechanism that actually dominates survival at the asked interface.",
     "controller_question": "Which mechanism still has the last real discretion over the observed result?",
@@ -249,10 +262,10 @@
       "Several mechanisms are locally real but one likely dominates",
       "A broad story exists but the final authorizing layer is still unclear"
     ],
-    "cheapest_honest_touch": "Write one readout that isolates the dominant surviving mechanism rather than the first visible one.",
+    "cheapest_honest_touch": "Write one 读出 that isolates the dominant surviving mechanism rather than the first visible one.",
     "anti_pattern": "Do not stop at the first true local mechanism if a later ceiling still decides the result."
   },
-  "local_seam_controls_global": {
+  "局部缝控制整体": {
     "family_type": "direct",
     "mechanism": "Use one local rule-change seam to control a wider global outcome.",
     "controller_question": "Is there one local seam whose law propagates farther than the surface story suggests?",
@@ -263,29 +276,29 @@
     "cheapest_honest_touch": "Probe the seam and ask what global structure must follow if it holds there.",
     "anti_pattern": "Do not jump to global narrative before testing whether one seam actually controls it."
   },
-  "definition_as_direct_readout": {
+  "定义即直接读出": {
     "family_type": "direct",
-    "mechanism": "Use the exact definition itself as the readout surface instead of inventing extra machinery.",
+    "mechanism": "Use the exact definition itself as the 读出 surface instead of inventing extra machinery.",
     "controller_question": "Does the answer already sit inside the exact object the definition names?",
     "wake_when": [
       "A concept is already defined by the needed quantity",
       "Extra derivation is adding shell rather than closure"
     ],
     "cheapest_honest_touch": "Write the answer directly through the exact defining relation.",
-    "anti_pattern": "Do not build a second theory when the definition already exposes the readout."
+    "anti_pattern": "Do not build a second theory when the definition already exposes the 读出."
   },
-  "symmetry_as_variable_killer": {
+  "对称消元": {
     "family_type": "direct",
-    "mechanism": "Use symmetry not just as atmosphere but to eliminate explicit variables or branches.",
-    "controller_question": "Which degree of freedom becomes illegal or redundant after lawful symmetry identification?",
+    "mechanism": "Use 对称 not just as atmosphere but to eliminate explicit variables or branches.",
+    "controller_question": "Which degree of freedom becomes illegal or redundant after lawful 对称 identification?",
     "wake_when": [
       "A variable survives only because equivalent roles were never quotiented",
       "Symmetry could collapse an explicit scan"
     ],
     "cheapest_honest_touch": "Identify the variable that dies once the symmetric roles are treated as one class.",
-    "anti_pattern": "Do not claim variable death until the symmetry preserves all active constraints."
+    "anti_pattern": "Do not claim variable death until the 对称 preserves all active constraints."
   },
-  "boundary_as_route_finder": {
+  "边界找路": {
     "family_type": "direct",
     "mechanism": "Use the boundary not just as a check but as the route-finding surface itself.",
     "controller_question": "What route only becomes visible once the object is pushed to its edge or first crack?",
@@ -296,7 +309,7 @@
     "cheapest_honest_touch": "Push directly to the edge case and read the route there before regrowing the interior.",
     "anti_pattern": "Do not treat the boundary as optional decoration when it is the real route finder."
   },
-  "model_calling_before_derivation": {
+  "先调模型后推导": {
     "family_type": "direct",
     "mechanism": "Call the likely object family or law before paying full derivation, then verify cheaply.",
     "controller_question": "What lawful family should be tested as a serious candidate before brute continuation?",
@@ -307,18 +320,18 @@
     "cheapest_honest_touch": "Name one candidate family and hit it with one cheap falsification check.",
     "anti_pattern": "Do not let family recognition replace verification."
   },
-  "special_value_probing": {
+  "特殊值探针": {
     "family_type": "direct",
     "mechanism": "Use one strategically chosen value to reveal the controller or kill a fake route.",
     "controller_question": "Which special value sharpens the mechanism rather than merely simplifying arithmetic?",
     "wake_when": [
       "A general route is too broad",
-      "One value can expose the anchor, symmetry, or failure seam"
+      "One value can expose the anchor, 对称, or failure seam"
     ],
     "cheapest_honest_touch": "Probe the one value most likely to expose the live controller.",
     "anti_pattern": "Do not confuse simplification values with mechanism-revealing values."
   },
-  "function_archetype_matching": {
+  "函数原型匹配": {
     "family_type": "direct",
     "mechanism": "Match the current object to a function/archetype family whose laws shrink the search space immediately.",
     "controller_question": "Which archetype does this object already belong to if I stop narrating its costume?",
@@ -330,3 +343,4 @@
     "anti_pattern": "Do not force a family match that only shares surface resemblance."
   }
 }
+

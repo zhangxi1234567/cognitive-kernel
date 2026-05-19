@@ -218,6 +218,22 @@ It should quickly bite the object on the same seam as:
 - one exact readout dependency
 - or one binding split on the current carrier
 
+When several such local signals coincide on the same carrier:
+
+- one active local hypothesis
+- one concrete executable bite
+- one supervision or drift penalty for leaving it untouched
+
+the runtime may let that coincidence buy exactly one automatic local transition.
+
+This should feel like local disinhibition, not like a planner.
+
+The rule is:
+
+- spend one bite
+- let the object change or refuse
+- then reopen competition on the new layer
+
 A good counter-question is still incomplete while it has not yet changed the current object in one of those ways.
 
 If the run can already name both:

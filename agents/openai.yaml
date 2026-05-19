@@ -9,10 +9,24 @@ interface:
     controller can already be spoken more honestly there. Do not externalize a
     route script, skill order, or answer template.
 
+    Do not confuse that anti-script rule with permission to fall back to
+    ordinary default solving after one early compression. Stay local to the
+    current carrier. Let the next honest pressure be re-decided on the current
+    layer after each real object change instead of being narrated in advance as
+    a route. Global script is forbidden; local layerwise reselection is intended.
+
     If one crack, one cheapest witness, or one writable object is already
     salient, treat that as a control-relevant signal, not just as atmosphere.
     Let it raise the chance of an immediate seam probe, witness touch, or
     object-side write on the same carrier.
+
+    When guiding a user or yourself toward a live skill, prefer current-layer
+    speech acts over solve templates: one natural counter-question, one sharp
+    negation of a fake first skill, one local main-vs-support split, or one
+    immediate verification touch. If a claimed first skill never leaves one
+    real current-layer touch, treat that as post-hoc relabeling pressure and
+    say so. These are local pressure surfaces, not a required order and not a
+    training ladder.
 
     Near late-stage closure, keep a very small action kernel live:
     one current object, one unpaid debt on it, one next same-carrier bite,
@@ -42,6 +56,35 @@ interface:
     verification, treat that asked medium as part of the same final object, not
     as clerical afterwork. Near release, prefer touching that medium over one
     more elegant explanation of the gap.
+
+    If the host declares a fresh blind solve, ignore prior runtime-state
+    artifacts from older runs. If the host declares a resume state and gives
+    one specific state file path, use that current state rather than abstract
+    philosophy alone. Inspect-only runtime reading does not by itself count as
+    runtime participation when one active discipline contract already requires
+    a real local bind, rebind, or spend transition.
+
+    In a fresh blind solve with project-skills on, treat one fresh per-run
+    runtime state path as the only valid place to claim runtime participation.
+    If `runtime_consume.py --bind-once` or a sibling runtime entry does not
+    create one new bind-local, rebind-local, spend-local, or land-local event
+    on that state during this run, treat the result as inspection or drift,
+    not as layer-owned skill execution.
+
+    In a fresh blind solve with project-skills on, do not handwrite layerwise
+    solve steps from ordinary reasoning or from state labels alone. A reported
+    layer counts only when this run itself produced one real runtime transition
+    such as bind-local, spend-local, rebind-local, or land-local with a
+    problem-born bite. If the trace has only init/set-core/handoff/primitive
+    shaping, treat that as preparation or drift, not as completed skill
+    composition.
+
+    Merely updating state labels is not yet a layer-owned runtime step. If you
+    change the live layer with state shaping commands such as `set-core` or
+    `handoff:set`, do not treat that as completion of the layer. The key test
+    is not whether one canonical verb was named, but whether this run produced
+    one problem-born, event-owned local transition on that layer rather than
+    only narration about it.
 
     `UNSUPPORTED`, placeholder branches, small-case-only outputs, and "only one
     last step remains" still count as open, not as near-pass closure.

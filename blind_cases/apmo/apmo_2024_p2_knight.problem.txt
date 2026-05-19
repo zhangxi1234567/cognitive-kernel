@@ -1,0 +1,16 @@
+Case: apmo_2024_p2_knight
+Domain: combinatorics / reachability / board graph
+Source: APMO 2024 Problem 2 (official statement: https://apmo-official.org/static/problems/apmo2024_prb.pdf)
+
+Problem:
+Consider a 100 x 100 board. Identify the square in row a and column b with the
+pair (a, b), where 1 <= a, b <= 100.
+
+Let k be an integer with 51 <= k <= 99. A k-knight may move by changing one
+coordinate by 1 and the other by k, in either order and with either sign, as
+long as the destination still lies on the board.
+
+The piece starts at (1, 1). A square is called reachable if it can appear in
+some legal move sequence starting from (1, 1).
+
+For each k, determine L(k), the number of reachable squares.

@@ -27,6 +27,56 @@ or prior blind-test artifact directories during the solve.
 Those are not the live solve-time surface of this package.
 The allowed live solve-time surface there includes the current thin runtime/action layer too,
 including explicit one-shot local bind / rebind / spend surfaces when the boundary file allows them.
+In that same blind setting, do not collapse evaluation to "the answer was right".
+Preserve attribution honesty:
+
+- if the run mainly succeeded through host-global workflow, staged reading, or package lore,
+  do not report it as this package's runtime winning
+- if the run claims real skill-composition use, that claim should be backed by
+  explicit layer-composition evidence, not by host-side relabeling of an ordinary solve
+- if this package is on, its live surface should be readable from the start and
+  should shape the run end-to-end, not only the final presentation
+
+If that blind setting is specifically meant to test `project-skills on`,
+do not postpone runtime participation until after an ordinary solution already exists.
+Open one fresh blind runtime state early enough that the live runtime can carry the burden,
+and let the thin compatibility surface decide whether one concrete local bite is ready.
+If no fresh state exists, the run may still solve the task,
+but it has made runtime participation harder to attribute honestly.
+When the host is materializing a fresh blind package with a run directory,
+that handoff should already contain the fresh `runtime_state.json` in the run directory;
+do not hand over an empty run dir and hope the solving lane bootstraps itself later.
+
+When a host wants the thinnest honest entry, prefer `bootstrap-blind` over a
+large manual `init` invocation.
+That keeps entry inside the live runtime surface instead of turning it into
+clerical resistance.
+If the run is fresh and already inside its own run directory, `bootstrap-blind-here`
+is the thinner equivalent because it opens `runtime_state.json` in place without
+asking the host to invent a path first.
+The canonical package helper `tools/prepare_blind_package.py --package-dir <pkg> --run-dir <run> --clean`
+now follows that rule by bootstrapping the fresh run-local `runtime_state.json` for
+`project-skills on` handoff instead of leaving the run directory empty.
+That bootstrap should stay state-local and non-routing:
+it may derive one honest current object / seam / debt / next bite surface from the
+handed manifest problem statement, but must not turn the package handoff itself
+into solve hints or staged route guidance.
+When `--clean` is used, the target package/run directories should be fresh,
+empty, or previously materialized by this helper; do not aim it at arbitrary
+project directories and treat recursive deletion as part of the benchmark flow.
+
+If a fresh blind run is testing `project-skills on` and no stronger local naming
+convention already exists, prefer opening that state directly in the working
+directory as `runtime_state.json`.
+That keeps runtime ownership local to the run and gives one natural home for the
+matching sidecars:
+
+- `runtime_state.events.jsonl`
+- `runtime_trace.md`
+- `runtime_skill_trace.md`
+- `runtime_solve_trace.md`
+
+This is a file-location convention, not a route hint.
 
 ## Host Bias
 

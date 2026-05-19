@@ -7,7 +7,11 @@ import sys
 from pathlib import Path
 
 from runtime_guard import build_report, load_json
-from runtime_state import build_runtime_evidence
+from runtime_state import (
+    active_contract_requires_runtime_evidence,
+    build_runtime_evidence,
+    build_runtime_evidence_refusal_payload,
+)
 
 
 def _normalize_text(value: object) -> str:
@@ -35,10 +39,14 @@ def _same_program(left: object, right: object) -> bool:
 def _authority_touch(payload: dict) -> dict | None:
     bridge = payload.get("skill_authority_bridge")
     if isinstance(bridge, dict) and isinstance(bridge.get("executable_local_touch_if_any"), dict):
-        return bridge.get("executable_local_touch_if_any")
+        executable = bridge.get("executable_local_touch_if_any")
+        if _program_signature(executable) != ("", "", ""):
+            return executable
     contract = payload.get("discipline_contract")
     if isinstance(contract, dict) and isinstance(contract.get("authorized_bite"), dict):
-        return contract.get("authorized_bite")
+        authorized = contract.get("authorized_bite")
+        if _program_signature(authorized) != ("", "", ""):
+            return authorized
     interlayer = payload.get("interlayer_discharge_bridge")
     if isinstance(interlayer, dict) and isinstance(interlayer.get("spend_first_program"), dict):
         return interlayer.get("spend_first_program")
@@ -52,28 +60,45 @@ def _winning_skill(payload: dict) -> str:
     return ""
 
 
+def _retain_shadow_program(payload: dict, key: str, *, shadow_key: str, authority_touch: dict | None) -> None:
+    candidate = payload.get(key)
+    if not isinstance(candidate, dict):
+        return
+    if authority_touch is not None and _same_program(candidate, authority_touch):
+        payload[f"{key}_authority_match"] = True
+        return
+    payload[f"{key}_authority_match"] = False
+    payload[shadow_key] = candidate
+
+
 def cool_shortcut_fields(payload: dict) -> None:
     authority_touch = _authority_touch(payload)
     winning_skill = _winning_skill(payload)
 
     next_touch = payload.get("next_touch")
     if next_touch and not _same_program(next_touch, authority_touch):
-        payload.pop("next_touch", None)
-        payload.pop("default_local_action", None)
+        payload["next_touch_authority_match"] = False
+        payload["non_authoritative_next_touch"] = next_touch
+    elif isinstance(next_touch, dict):
+        payload["next_touch_authority_match"] = True
 
     next_primitive_touch = payload.get("next_primitive_touch")
     if next_primitive_touch and not _same_program(next_primitive_touch, authority_touch):
-        payload.pop("next_primitive_touch", None)
-        payload.pop("reselection_origin", None)
+        payload["next_primitive_touch_authority_match"] = False
+        payload["non_authoritative_next_primitive_touch"] = next_primitive_touch
+    elif isinstance(next_primitive_touch, dict):
+        payload["next_primitive_touch_authority_match"] = True
 
-    readout_bite = payload.get("current_readout_bite_if_any")
-    if readout_bite and winning_skill != "exact_closure" and not _same_program(
-        readout_bite, authority_touch
-    ):
-        payload.pop("current_readout_bite_if_any", None)
+    if winning_skill != "精确封口":
+        _retain_shadow_program(
+            payload,
+            "current_读出_bite_if_any",
+            shadow_key="suppressed_读出_bite_if_any",
+            authority_touch=authority_touch,
+        )
 
     structural_bite = payload.get("current_structural_bite_if_any")
-    if structural_bite and winning_skill == "exact_closure":
+    if structural_bite and winning_skill == "精确封口":
         interlayer = payload.get("interlayer_discharge_bridge")
         spend_first = (
             interlayer.get("spend_first_program")
@@ -81,7 +106,10 @@ def cool_shortcut_fields(payload: dict) -> None:
             else None
         )
         if not _same_program(structural_bite, spend_first):
-            payload.pop("current_structural_bite_if_any", None)
+            payload["current_structural_bite_if_any_authority_match"] = False
+            payload["suppressed_structural_bite_if_any"] = structural_bite
+        else:
+            payload["current_structural_bite_if_any_authority_match"] = True
 
 
 def reorder_payload_authority_first(payload: dict) -> dict:
@@ -89,11 +117,14 @@ def reorder_payload_authority_first(payload: dict) -> dict:
     preferred = [
         "state_file",
         "consumed",
+        "inspect_only",
         "discipline_contract",
         "runtime_evidence",
+        "layer_composition",
         "ordinary_regrowth_forbidden",
         "reader_quieted",
         "authorized_bite_if_any",
+        "resume_bridge",
         "skill_authority_bridge",
         "probe_discipline",
         "interlayer_discharge_bridge",
@@ -102,7 +133,7 @@ def reorder_payload_authority_first(payload: dict) -> dict:
         "skill_inhibition",
         "closure_nucleus",
         "current_structural_bite_if_any",
-        "current_readout_bite_if_any",
+        "current_读出_bite_if_any",
         "separating_check_if_any",
         "primitive_field",
         "primitive_competition",
@@ -125,10 +156,19 @@ def reorder_payload_authority_first(payload: dict) -> dict:
 
 def should_quiet_for_probe_drift(payload: dict) -> bool:
     discipline = payload.get("probe_discipline")
+    active_hypotheses = (
+        discipline.get("active_skill_hypotheses")
+        if isinstance(discipline, dict)
+        else None
+    )
+    has_plural_binding = isinstance(active_hypotheses, list) and any(
+        _normalize_text(value) for value in active_hypotheses
+    )
     return isinstance(discipline, dict) and (
         discipline.get("probe_must_bind") is True
         and discipline.get("unbound_probe_is_drift") is True
         and not _normalize_text(discipline.get("active_skill_hypothesis"))
+        and not has_plural_binding
     )
 
 
@@ -152,7 +192,7 @@ def quiet_payload_for_active_contract(payload: dict) -> None:
     cool_shortcut_fields(payload)
 
 
-def build_primitive_readout(state_path: Path) -> tuple[dict, int]:
+def build_primitive_读出(state_path: Path) -> tuple[dict, int]:
     state = load_json(state_path)
     report = build_report(state, state_path)
     discipline_contract = report.get("discipline_contract", {})
@@ -185,7 +225,8 @@ def build_primitive_readout(state_path: Path) -> tuple[dict, int]:
 
     payload = {
         "state_file": str(state_path),
-        "consumed": True,
+        "consumed": False,
+        "inspect_only": True,
         "primitive_field": primitive_field if isinstance(primitive_field, dict) else {},
         "primitive_semantics": report.get("primitive_semantics", {}),
         "primitive_competition": (
@@ -198,6 +239,10 @@ def build_primitive_readout(state_path: Path) -> tuple[dict, int]:
         "runtime_evidence": build_runtime_evidence(state_path),
         "warnings": report["warnings"],
     }
+
+    layer_composition = report.get("layer_composition")
+    if isinstance(layer_composition, dict):
+        payload["layer_composition"] = layer_composition
 
     skill_field = report.get("skill_field")
     if isinstance(skill_field, dict):
@@ -218,6 +263,9 @@ def build_primitive_readout(state_path: Path) -> tuple[dict, int]:
     skill_authority_bridge = report.get("skill_authority_bridge")
     if isinstance(skill_authority_bridge, dict):
         payload["skill_authority_bridge"] = skill_authority_bridge
+    resume_bridge = report.get("resume_bridge")
+    if isinstance(resume_bridge, dict):
+        payload["resume_bridge"] = resume_bridge
     probe_discipline = report.get("probe_discipline")
     if isinstance(probe_discipline, dict):
         payload["probe_discipline"] = probe_discipline
@@ -232,8 +280,8 @@ def build_primitive_readout(state_path: Path) -> tuple[dict, int]:
         payload["current_structural_bite_if_any"] = closure_nucleus.get(
             "current_structural_bite_if_any", {}
         )
-        payload["current_readout_bite_if_any"] = closure_nucleus.get(
-            "current_readout_bite_if_any", {}
+        payload["current_读出_bite_if_any"] = closure_nucleus.get(
+            "current_读出_bite_if_any", {}
         )
         payload["separating_check_if_any"] = closure_nucleus.get(
             "separating_check_if_any", ""
@@ -270,6 +318,19 @@ def build_primitive_readout(state_path: Path) -> tuple[dict, int]:
         cool_shortcut_fields(payload)
 
     cool_shortcut_fields(payload)
+    if active_contract_requires_runtime_evidence(
+        payload.get("discipline_contract"),
+        payload.get("runtime_evidence"),
+        layer_composition=payload.get("layer_composition"),
+    ):
+        return build_runtime_evidence_refusal_payload(
+            state_path,
+            discipline_contract=payload.get("discipline_contract"),
+            resume_bridge=payload.get("resume_bridge"),
+            warnings=payload.get("warnings"),
+            layer_composition=payload.get("layer_composition"),
+            surface_payload=payload,
+        ), 1
     payload = reorder_payload_authority_first(payload)
     return payload, 0
 
@@ -284,7 +345,7 @@ def main() -> int:
     parser.add_argument("state_file", help="Path to a runtime state json file")
     args = parser.parse_args()
 
-    payload, exit_code = build_primitive_readout(Path(args.state_file))
+    payload, exit_code = build_primitive_读出(Path(args.state_file))
     json.dump(payload, sys.stdout, ensure_ascii=True, indent=2)
     sys.stdout.write("\n")
     return exit_code
@@ -292,3 +353,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

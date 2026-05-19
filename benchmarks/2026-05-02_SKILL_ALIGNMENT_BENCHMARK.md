@@ -28,14 +28,12 @@ judged by whether the produced closure landed in the official family.
 | Problem | Result | Notes |
 | --- | --- | --- |
 | `AGC012F - Prefix Median` | partial pass | reverse family recovered, but state still thicker than the tightest final DP form |
-| `2026 APC M - Deformed Balance` | pass-ish but still softer than ideal | finite-prefix + two-state family recovered |
 | `2026 APC L - Onion` | pass | small-vector + ordered collinear groups + endpoint peel recovered |
 | `IOI 2015 - towns` | pass | `B` multiset + candidate fiber + same-component + majority certification recovered |
 
 Indicative alignment scores from this check:
 
 - `AGC012F`: `68/100`
-- `Deformed Balance`: `74/100`
 - `Onion`: `90/100`
 - `towns`: `88/100`
 

@@ -63,6 +63,19 @@ When these readers surface primitive semantics, that layer should stay descripti
 mechanism, controller-question, wake signals, cheap honest touch, and misuse warning.
 It must not turn into a route order or solve script.
 
+If the host surfaces teaching-style language around a live layer, keep it in that
+same descriptive family:
+
+- one current-layer counter-question
+- one local false-skill negation
+- one main-vs-support split
+- one immediate verification touch
+- one accountability nudge against post-hoc relabeling
+
+Those are local semantic pressure surfaces, not a replayable order.
+They should help the host notice who is taking control on this layer,
+not teach a benchmark-shaped ladder for later layers.
+
 Their job is only to keep one tiny control state writable and checkable
 against release-veto conditions.
 When late-stage debt is already concrete,
@@ -80,9 +93,15 @@ If the run needs one thin answer to "are we still stuck at shell / middle carrie
 wrong owner / too-thick object?" without turning that into a route,
 `tools/runtime_controller.py` may surface one tiny control-signal readout.
 `tools/runtime_consume.py` may still act as a thin compatibility surface.
-Its default should stay inspect-only.
-Only an explicit bind-once request should let it persist exactly one already-local
-action or thinner-carrier handoff.
+Its default should stay inspect-only when no concrete local bite is yet live.
+But in a fresh blind `project-skills on` state, once the live state already exposes
+one concrete local bite, one live probe-must-bind pressure, or one explicit
+same-layer takeover pressure, that compatibility surface may spend exactly one
+automatic local bind or spend transition.
+That auto-entry is still one-shot and local.
+It must not grow into a loop, scheduler, staged unlock, or route executor.
+Outside that narrow coincidence, only an explicit bind-once request should let it
+persist exactly one already-local action or thinner-carrier handoff.
 If a run wants to honestly claim that this package's live runtime was not merely read
 but actually participated, inspect-only readout is not enough by itself.
 At least one real one-shot runtime transition should exist as evidence:
@@ -126,6 +145,11 @@ That means the solve lane may read the live runtime surface for the full run,
 but must not read `README.md`, `benchmarks/`, `references/`, `memory/`,
 or prior blind-test artifacts while solving.
 
+If a host needs one exact handoff file for that `project-skills on` blind set,
+use `BLIND_TEST_READSET_PROJECT_SKILLS_ON.txt`.
+That file is the canonical packaging-time manifest for the allowed read set,
+not a reading order and not a solve script.
+
 When that live runtime surface is allowed,
 treat it as one same-layer live read set from the start of the run.
 
@@ -137,6 +161,49 @@ Do not reinterpret the package surface as:
 
 That would turn an allowed read boundary back into a reading order,
 which this package explicitly rejects.
+
+## Local Composition Is Allowed
+
+The prohibition here is against:
+
+- a global replayable route
+- a fixed solve ladder
+- a task-to-skill lookup shelf
+- or a host-taught script for what should happen several layers later
+
+That prohibition does **not** forbid local layerwise skill composition.
+
+When one current carrier is already local enough to name honestly,
+the runtime may and should re-select one small live skill / primitive
+combination on that carrier, spend exactly one owned bite there,
+and then re-evaluate again on the next exposed layer.
+
+So the correct conflict resolution is:
+
+- forbid global script
+- allow local reselection
+- require re-selection again after a real layer change
+- and keep final closure inside the same live skill system
+
+The JOI layerwise note is therefore not a contradiction of this file.
+It is the anti-ordinary-fallback reading of this file:
+do not externalize a route in advance,
+but once a live layer is real, do not fall back to ordinary default solving there either.
+
+For fresh blind `project-skills on` runs, this has one extra visible-output consequence:
+
+- the first live combo does not license ordinary solving prose
+- after each real layer change, the host must re-select again instead of coasting on the reduced object
+- if one step is surfaced as an explicit skill-composition step, the visible step text should make that ownership legible
+
+That legibility means the solve-side text should expose, at minimum:
+
+- the leading / first-taking-control skill on the current layer
+- at least one supporting current-layer skill that materially shaped the move
+- and the immediate verification touch or object-side contact that kept the step honest
+
+This is still not a replayable script.
+It is only a refusal of post-hoc relabeling and ordinary fallback after the combo is already live.
 
 ## Identity
 
@@ -213,6 +280,76 @@ or thinner-carrier reduction rather than as a narrated route.
 
 Recognition should not settle inside language or in a reusable move table.
 
+Changing the named current object is not enough either.
+
+If a layer has already become local enough that one owned bite is concrete,
+do not stop at:
+
+- renaming `current_object`
+- refreshing `current_seam`
+- exposing a thinner carrier
+- or writing down that a new layer now exists
+
+That is only layer preparation.
+
+The layer becomes a real runtime step only when the newly concrete bite is
+actually bound, landed, rebound, or spent on that layer.
+
+In a `fresh blind solve` with `project-skills on`, treat this as a hard
+execution boundary, not as advice.
+
+If the run needs one thin way to open that live runtime without turning entry
+into clerical setup, use:
+
+```bash
+python tools/runtime_state.py bootstrap-blind <state.json> --current-object ... --current-debt ... --next-bite ... --asked-medium-surface ...
+```
+
+If the run is already sitting inside its own fresh work directory,
+the even thinner in-place variant is:
+
+```bash
+python tools/runtime_state.py bootstrap-blind-here --current-object ... --current-debt ... --next-bite ... --asked-medium-surface ...
+```
+
+That command only creates one fresh blind runtime membrane.
+It does not choose later layers or grant workflow permission.
+
+If no stronger local convention already exists for a fresh blind run,
+prefer the run-directory filename `runtime_state.json`.
+That keeps one honest per-run state membrane and lets the runtime leave its
+matching trace sidecars in the same folder without extra host choreography.
+
+If one non-readout `bound_program` is already live and the solve then tightens
+`current_object`, `current_debt`, and `next_bite` on the same carrier,
+that update should be treated as one `land-local` event rather than as plain state editing.
+The runtime may reopen exactly one next local bite from that landing,
+but it still may not turn that into a route executor.
+
+If the live state already says, in effect:
+
+- one concrete next touch exists
+- `probe_must_bind` is live
+- or `bound_program missing; derived next_touch used`
+
+then do not continue with more `set-core`, `primitive:set`, `competition:set`,
+or `handoff:set` narration.
+
+At that point the next truthful move must be one of:
+
+- `bind-local`
+- `rebind-local`
+- `spend-local`
+- `land-local`
+
+Otherwise the run has not begun the layer yet; it is still orbiting preparation.
+
+If the run is carrying a fresh blind `project-skills on` runtime state,
+`tools/runtime_consume.py <state>` is now allowed to be the thin membrane that
+turns that coincidence into exactly one local runtime transition.
+That is not a route instruction.
+It is only permission for one already-concrete local pressure to disinhibit one bite.
+
 If the run can already honestly think:
 
 - this wants a picture
@@ -246,6 +383,19 @@ not as a visible method being performed.
 The package should not decide in advance how many ideas stay alive.
 
 That should be determined by how much real difficulty remains.
+
+What must also not happen is the opposite regression:
+
+- using one local skill combination once
+- compressing to a thinner object
+- and then finishing the rest in ordinary default mode without re-selecting on the new layer
+
+The intended behavior is:
+
+- local combination only
+- current-layer ownership only
+- renewed selection after each honest peel
+- final closure still solved inside the same live runtime
 
 ## Final Rule
 

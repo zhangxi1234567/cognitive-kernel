@@ -124,6 +124,18 @@ It must not override:
 It may only stop decorative broadening around the current bite.
 It may not choose the next layer, next winner, or next stage.
 
+If one same-carrier bite is already explicitly bound and the host then tightens:
+
+- the current object
+- the current debt
+- and the next bite
+
+that update should count as one same-carrier landing,
+not as ordinary metadata editing.
+
+This is still only one local event.
+It does not authorize automatic continuation beyond the reopened next bite.
+
 ## Same-Carrier Persistence
 
 Once one object has action authority,
@@ -218,6 +230,22 @@ It should quickly bind to one tiny executable program on the same carrier or ask
 
 If the gap still exists only as diagnosis,
 terminal authority is still underbound.
+
+If one live consumer can already see all of these at once:
+
+- one concrete current-layer bite
+- one active local bind pressure
+- and no competing same-layer touch of equal authority
+
+then it may spend exactly one automatic local bind or spend transition.
+
+That permission is still not a workflow.
+
+It is only one local disinhibition event:
+
+- one concrete bite suppresses nearby decorative continuation
+- one transition lands
+- and the next layer must compete again from there
 
 Near release, one gap without one bound verb-object program
 does not yet count as real action authority.
